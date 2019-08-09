@@ -1,0 +1,1 @@
+<title class="bg-warning" style="text-align: right; font-family: Vazir">سامانه همگام</title>
