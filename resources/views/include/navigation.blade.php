@@ -8,19 +8,28 @@
             <div class="col-12">
                 <header>
                     <nav class="navbar navbar-expand-md  navbar-light ">
-                        <a class="navbar-brand p-0 m-0" href="#" target="_blank"><img src="{{asset('/img/hamgam-logo.png')}}" alt=""></a>
+                        <a class="navbar-brand p-0 m-0" href="{{url('/home')}}" target="_blank"><img src="{{asset('/img/hamgam-logo.png')}}" alt=""></a>
+
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav py-4 py-md-0">
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+                                    <a class="nav-link" href="{{url('/signin')}}">ورود</a>
+                                </li>
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
+                                    <a class="nav-link" href="{{url('/signup')}}">ثبت نام</a>
+                                </li>
+                            </ul>
                             <ul class="navbar-nav ml-auto py-4 py-md-0">
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                     <a class="nav-link" href="#">ارتباط با ما</a>
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
-                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">موفقیت</a>
+                                    <a class="nav-link dropdown-toggle" href="{{url('/success')}}">موفقیت</a>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#"> فیلد شماره 1</a>
+                                        <a class="dropdown-item" href="{{url('/success')}}"> فیلد شماره 1</a>
                                         <a class="dropdown-item" href="#">فیلد شماره 2</a>
                                         <a class="dropdown-item" href="#">فیلد شماره 3</a>
                                         <a class="dropdown-item" href="#">فیلد شماره 4</a>
@@ -45,7 +54,7 @@
                                     <a class="nav-link" href="{{url('/academic-guidance')}}">هدایت تحصیلی</a>
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                    <a class="nav-link" href="#">خانه</a>
+                                    <a class="nav-link" href="{{url('/home')}}">خانه</a>
                                 </li>
                             </ul>
                         </div>

@@ -2,195 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f14315a1-f51c-4021-9930-fd62810c2dbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/hamgam.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.styleci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/book-logo.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logo/book-logo - Copy.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logo/book-logo.ai" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logo/book-logo.cdr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logo/book-logo.eps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logo/book-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logo/book-logo.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logo/book-logo.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logo/book-logoa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logo/hamgam-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logo/readme.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/classy-nav.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/custom-icon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/magnific-popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/navStyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Crimson-Bold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Crimson-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Crimson-BoldItalic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Crimson-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Crimson-Italic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Crimson-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Crimson-Roman.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Crimson-Roman.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Crimson-Semibold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Crimson-Semibold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Crimson-SemiboldItalic.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Crimson-SemiboldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-Black-FD.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-Black-FD.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-Black-FD.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-Black-FD.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-Bold-FD.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-Bold-FD.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-Bold-FD.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-Bold-FD.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-FD.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-FD.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-FD.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-FD.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-Light-FD.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-Light-FD.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-Light-FD.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-Light-FD.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-Medium-FD.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-Medium-FD.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-Medium-FD.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-Medium-FD.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-Thin-FD.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-Thin-FD.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-Thin-FD.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/Vazir-Thin-FD.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/classy.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/classy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/classy.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/classy.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/icomoon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/icomoon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/icomoon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/fonts/icomoon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/bg-tile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/bg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/change.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/consultation.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/hamgam-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/job.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/purpose.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/tile-bg-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/active.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/bootstrap/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/google-map/map-active.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/jquery/jquery-2.2.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/navJs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/num-animation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/plugins/plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/include/bootstrap.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/include/carousel.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/include/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/include/javascript.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/include/nav-style-js.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/include/navigation.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/include/page-title.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/site/academic-guidance.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/sign-in.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/auth/sign-up.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/success.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/navStyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/navStyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/include/navigation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/include/navigation.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -204,33 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/include/footer.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/sign-up.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="48" column="30" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="48" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="152" column="20" selection-start-line="152" selection-start-column="20" selection-end-line="152" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/site/academic-guidance.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="114" column="57" selection-start-line="114" selection-start-column="57" selection-end-line="114" selection-end-column="57" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="273">
+              <caret line="38" column="30" lean-forward="true" selection-end-line="60" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -238,8 +35,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="322" column="30" lean-forward="true" selection-start-line="322" selection-start-column="30" selection-end-line="322" selection-end-column="30" />
+            <state relative-caret-position="509">
+              <caret line="434" column="43" selection-start-line="434" selection-start-column="43" selection-end-line="434" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="446">
+              <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+              <folding>
+                <element signature="e#481#520#1#PHP" expanded="true" />
+                <element signature="e#555#611#1#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/sign-in.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -270,6 +92,7 @@
       <find>scroll-on</find>
       <find>.nav-item</find>
       <find>.nav-item::after</find>
+      <find>dropdown-toggle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -291,11 +114,17 @@
         <option value="$PROJECT_DIR$/resources/views/include/footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/include/carousel.blade.php" />
         <option value="$PROJECT_DIR$/public/js/num-animation.js" />
+        <option value="$PROJECT_DIR$/resources/views/site/academic-guidance.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/site/success.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/navStyle.css" />
+        <option value="$PROJECT_DIR$/public/js/sign-js.js" />
+        <option value="$PROJECT_DIR$/resources/views/include/sign-style.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/sign-style.css" />
+        <option value="$PROJECT_DIR$/resources/views/auth/sign-up.blade.php" />
+        <option value="$PROJECT_DIR$/public/style.css" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/include/navigation.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/navStyle.css" />
-        <option value="$PROJECT_DIR$/public/style.css" />
-        <option value="$PROJECT_DIR$/resources/views/site/academic-guidance.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/sign-in.blade.php" />
       </list>
     </option>
   </component>
@@ -409,11 +238,6 @@
             <path>
               <item name="hamgam" type="b2602c69:ProjectViewProjectNode" />
               <item name="hamgam" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hamgam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hamgam" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -421,6 +245,13 @@
               <item name="hamgam" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hamgam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hamgam" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hamgam" type="b2602c69:ProjectViewProjectNode" />
@@ -545,17 +376,21 @@
       <workItem from="1565156548051" duration="4962000" />
       <workItem from="1565162393083" duration="15067000" />
       <workItem from="1565248218885" duration="10828000" />
-      <workItem from="1565343353815" duration="6526000" />
+      <workItem from="1565343353815" duration="13585000" />
+      <workItem from="1565380885799" duration="1388000" />
+      <workItem from="1565382309760" duration="4000" />
+      <workItem from="1565419734049" duration="5386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59196000" />
+    <option name="totallyTimeSpent" value="73033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1318" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21061093" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22508039" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -569,8 +404,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.648773" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3297546" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.8619632" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -644,34 +479,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/include/bootstrap.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/include/page-title.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="70" selection-start-column="70" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="5" column="118697" selection-start-line="5" selection-start-column="118697" selection-end-line="5" selection-end-column="118697" />
-          <folding>
-            <element signature="e#65816#66016#2" expanded="true" />
-            <element signature="e#66222#66371#2" expanded="true" />
-            <element signature="e#66870#67016#2" expanded="true" />
-            <element signature="e#67317#67483#1" expanded="true" />
-            <element signature="e#81642#81885#2" expanded="true" />
-            <element signature="e#82710#82959#2" expanded="true" />
-            <element signature="e#110751#110941#2" expanded="true" />
-            <element signature="e#110987#111177#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -706,37 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
-          <folding>
-            <element signature="e#481#520#1#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/include/navigation.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/navStyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/include/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="48" column="30" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="48" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -744,10 +524,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="127" column="14" selection-start-line="127" selection-start-column="14" selection-end-line="127" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/academic-guidance.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="115" column="18" selection-end-line="143" selection-end-column="7" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/navStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="515" column="18" selection-start-line="515" selection-start-column="3" selection-end-line="515" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/sign-js.js" />
+    <entry file="file://$PROJECT_DIR$/public/css/sign-style.css" />
+    <entry file="file://$PROJECT_DIR$/resources/views/include/sign-style.blade.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/include/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-517">
+          <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/include/bootstrap.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="5" column="6299" selection-start-line="5" selection-start-column="6299" selection-end-line="5" selection-end-column="6299" />
+          <folding>
+            <element signature="e#65816#66016#2" expanded="true" />
+            <element signature="e#66222#66371#2" expanded="true" />
+            <element signature="e#66870#67016#2" expanded="true" />
+            <element signature="e#67317#67483#1" expanded="true" />
+            <element signature="e#81642#81885#2" expanded="true" />
+            <element signature="e#82710#82959#2" expanded="true" />
+            <element signature="e#110751#110941#2" expanded="true" />
+            <element signature="e#110987#111177#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/site/success.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="59" column="37" lean-forward="true" selection-start-line="57" selection-start-column="28" selection-end-line="59" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
-          <caret line="5" column="72780" selection-start-line="5" selection-start-column="72780" selection-end-line="5" selection-end-column="72780" />
+          <caret line="5" column="60375" selection-start-line="5" selection-start-column="60375" selection-end-line="5" selection-end-column="60375" />
           <folding>
             <element signature="e#58441#58641#2" expanded="true" />
             <element signature="e#58849#58998#2" expanded="true" />
@@ -761,28 +608,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="127" column="14" selection-start-line="127" selection-start-column="14" selection-end-line="127" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="322" column="30" lean-forward="true" selection-start-line="322" selection-start-column="30" selection-end-line="322" selection-end-column="30" />
+        <state relative-caret-position="509">
+          <caret line="434" column="43" selection-start-line="434" selection-start-column="43" selection-end-line="434" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/site/academic-guidance.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/sign-up.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="114" column="57" selection-start-line="114" selection-start-column="57" selection-end-line="114" selection-end-column="57" />
+        <state relative-caret-position="273">
+          <caret line="38" column="30" lean-forward="true" selection-end-line="60" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#481#520#1#PHP" expanded="true" />
+            <element signature="e#555#611#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/include/navigation.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="76" selection-start-line="18" selection-start-column="76" selection-end-line="18" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/sign-in.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>

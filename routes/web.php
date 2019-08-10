@@ -25,3 +25,17 @@ Route::get('/academic-guidance',function (){
   return view('site.academic-guidance');
 
 });
+
+Route::get('/success',function (){
+  return view('site.success');
+
+});
+
+//Auth
+
+Route::get('/signup',function (){
+  return view('auth.sign-up');
+});
+Route::get('/signin',function (){
+  return view('auth.sign-in');
+});

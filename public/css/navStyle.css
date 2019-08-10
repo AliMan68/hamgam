@@ -36,7 +36,7 @@
   transition : all 0.3s ease-out;
 }
 .start-header.scroll-on {
-  box-shadow: 0 50px 10px 0 rgba(138, 155, 165, 0.15);
+  box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
   padding: 16px 0;
   background-color: rgba(0,0,0,0.85);
   -webkit-transition : all 0.3s ease-out;
