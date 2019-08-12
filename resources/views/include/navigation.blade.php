@@ -42,12 +42,10 @@
                                     <a class="nav-link" href="#">گردهمایی</a>
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">مهارت آموزی</a>
+                                    <a class="nav-link dropdown-toggle" href="{{url('/skill-learning')}}" >مهارت آموزی</a>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#"> فیلد شماره 1</a>
-                                        <a class="dropdown-item" href="#">فیلد شماره 2</a>
-                                        <a class="dropdown-item" href="#">فیلد شماره 3</a>
-                                        <a class="dropdown-item" href="#">فیلد شماره 4</a>
+                                        <a class="dropdown-item" href="{{url('/skill-learning/courses')}}">دوره های مهارتی </a>
+                                        <a class="dropdown-item" href="#">پیشنهاد دوره</a>
                                     </div>
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">

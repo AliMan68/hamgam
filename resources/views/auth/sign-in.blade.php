@@ -38,11 +38,12 @@
                         <option value="3">مدیریت</option>
                         <option value="3">انجمن</option>
                     </select>
-                    <input type="email" required class=" ml-auto mr-auto" placeholder="ایمیل">
+                    <input type="email" required class=" ml-auto mr-auto" placeholder="نام کاربری">
                     <input type="password" required class=" ml-auto mr-auto" placeholder="رمز عبور">
+                    <a href="{{url('/admin/admin')}}" class="text-white">
                     <button class="custom-btn text-center m-0 "type="submit" >
-                        <span>ورود</span>
-                    </button>
+                     <span>ورود</span>
+                    </button></a>
                 </form>
             </div>
 

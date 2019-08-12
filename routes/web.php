@@ -30,6 +30,14 @@ Route::get('/success',function (){
   return view('site.success');
 
 });
+Route::get('/skill-learning',function (){
+  return view('site.skill-learning');
+
+});
+Route::get('/skill-learning/courses',function (){
+  return view('site.skill-courses');
+
+});
 
 //Auth
 
@@ -38,4 +46,10 @@ Route::get('/signup',function (){
 });
 Route::get('/signin',function (){
   return view('auth.sign-in');
+});
+
+
+//Admins
+Route::get('/admin/admin',function (){
+  return view('admin.admin');
 });
