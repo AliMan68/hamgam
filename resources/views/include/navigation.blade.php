@@ -36,20 +36,28 @@
                                     </div>
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                    <a class="nav-link" href="#">ایدها</a>
+                                    <a class="nav-link" href="{{url('/idea')}}">ایدها</a>
                                 </li>
                                 <li class="nav-item  pl-4 pl-md-0 ml-0 ml-md-4">
-                                    <a class="nav-link" href="#">گردهمایی</a>
+                                    <a class="nav-link" href="{{url('/gathering')}}">گردهمایی</a>
+                                    <div class="dropdown-menu">
+
+                                        <a class="dropdown-item" href="{{url('/skill-learning/courses')}}">کارگاه های آموزشی </a>
+                                        <a class="dropdown-item text-right" href="{{url('/skill-learning/courses')}}" >بازدید از صنایع</a>
+                                        <a class="dropdown-item" href="#">دعوت از صاحبان صنایع</a>
+                                    </div>
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                     <a class="nav-link dropdown-toggle" href="{{url('/skill-learning')}}" >مهارت آموزی</a>
                                     <div class="dropdown-menu">
+
                                         <a class="dropdown-item" href="{{url('/skill-learning/courses')}}">دوره های مهارتی </a>
+                                        <a class="dropdown-item text-right" href="{{url('/skill-learning/courses')}}" >ترم بندی دوره های مهارتی </a>
                                         <a class="dropdown-item" href="#">پیشنهاد دوره</a>
                                     </div>
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
-                                    <a class="nav-link" href="{{url('/academic-guidance')}}">هدایت تحصیلی</a>
+                                    <a class="nav-link" href="{{url('/academic-guidance')}}">هدایت شغلی</a>
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                     <a class="nav-link" href="{{url('/home')}}">خانه</a>

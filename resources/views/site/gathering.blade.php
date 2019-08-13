@@ -22,7 +22,7 @@
         <div class="container-fluid">
             <div class="row mt-2">
                 <div class="col-5 mr-auto ml-auto bottom-line">
-                    <h2 class="text-center  p-2 mt-5 text-dark" style="font-family: Vazir; font-size: 3rem ; text-align: center"> هدایت تحصیلی </h2>
+                    <h2 class="text-center  p-2 mt-5 text-dark" style="font-family: Vazir; font-size: 3rem ; text-align: center"> گردهمایی </h2>
                 </div>
             </div>
         </div>
@@ -37,82 +37,60 @@
         </p>
     </div>
 </div>
-
-
 <div class="page-sections">
     <div class="container">
         <div class="row pt-5 m-auto">
-            <div class="col-md-6 col-lg-4 pb-3">
+            <div class="col-md-4 col-lg-4 pb-3">
                 <div class="card card-custom bg-white border-white border-0">
-                    <div class="card-custom-img" style="background-image: url('img/purpose.jpg')"></div>
+                    <div class="card-custom-img" style="background-image: url('img/workshop.png')"></div>
                     <div class="card-custom-avatar">
                         {{--<img class="img-fluid" src="http://res.cloudinary.com/d3/image/upload/c_pad,g_center,h_200,q_auto:eco,w_200/bootstrap-logo_u3c8dx.jpg" alt="Avatar" />--}}
                     </div>
                     <div class="card-body pt-2" style="overflow-y: auto">
-                        <h4 class="card-title">هدف</h4>
+                        <h4 class="card-title">کارگاه های آموزشی </h4>
                         <p class="card-text"> سامانه همگام به منظور برقراری ارتباط فعال و سازنده مابین دانشجویان، اساتید و صنایع در شهریور ماه 1398 راه اندازی شد.
                         </p>
                     </div>
                     <div class="card-footer" style="background: inherit; border-color: inherit;">
                         <div align="right">
-                            <button class="custom-btn text-center m-0 "type="submit" >
-                                <span>بیشتر</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-3">
-                <div class="card card-custom bg-white border-white border-0">
-                    <div class="card-custom-img" style="background-image: url('/img/job.jpg');"></div>
-                    <div class="card-custom-avatar">
-                        {{--<img class="img-fluid" src="http://res.cloudinary.com/d3/image/upload/c_pad,g_center,h_200,q_auto:eco,w_200/bootstrap-logo_u3c8dx.jpg" alt="Avatar" />--}}
-                    </div>
-                    <div class="card-body pt-2" style="overflow-y: auto">
-                        <h4 class="card-title">شغل های مرتبط با رشته</h4>
-                        <p class="card-text"> سامانه همگام به منظور برقراری ارتباط فعال و سازنده مابین دانشجویان، اساتید و صنایع در شهریور ماه 1398 راه اندازی شد.
-                        </p>
-                    </div>
-                    <div class="card-footer" style="background: inherit; border-color: inherit;">
-                        <div align="right">
-                            <button class="custom-btn text-center m-0 "type="submit" >
-                                <span>بیشتر</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 pb-3">
-                <div class="card card-custom bg-white border-white border-0">
-                    <div class="card-custom-img" style="background-image: url('img/consultation.jpg')"></div>
-                    <div class="card-custom-avatar">
-                        {{--<img class="img-fluid" src="http://res.cloudinary.com/d3/image/upload/c_pad,g_center,h_200,q_auto:eco,w_200/bootstrap-logo_u3c8dx.jpg" alt="Avatar" />--}}
-                    </div>
-                    <div class="card-body pt-2" style="overflow-y: auto">
-                        <h4 class="card-title">مشاوره</h4>
-                        <p class="card-text">در این بخش کاربر سوال پرسیده و یا به مشاهور مورد نطر لینک خواهد شد سامانه همگام به منظور برقراری ارتباط فعال و سازنده مابین دانشجویان، اساتید و صنایع در شهریور ماه 1398 راه اندازی شد.
-                        </p>
-                    </div>
-                    <div class="card-footer" style="background: inherit; border-color: inherit;">
-                        <div align="right">
-                            <button class="custom-btn text-center m-0 "type="submit" >
-                                <span>بیشتر</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row pt-5 m-auto">
+                            <a href="{{url('/skill-learning/courses')}}">
+                                <button class="custom-btn text-center m-0 "type="submit" >
+                                    <span>بیشتر</span>
+                                </button>
+                            </a>
 
-            <div class="col-md-6 col-lg-4 pb-3 mr-auto ml-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 pb-3">
                 <div class="card card-custom bg-white border-white border-0">
-                    <div class="card-custom-img" style="background-image: url('img/change.jpg')"></div>
+                    <div class="card-custom-img" style="background-image: url('/img/industry.jpg');"></div>
                     <div class="card-custom-avatar">
                         {{--<img class="img-fluid" src="http://res.cloudinary.com/d3/image/upload/c_pad,g_center,h_200,q_auto:eco,w_200/bootstrap-logo_u3c8dx.jpg" alt="Avatar" />--}}
                     </div>
                     <div class="card-body pt-2" style="overflow-y: auto">
-                        <h4 class="card-title">تغییر رشته</h4>
+                        <h4 class="card-title">بازدید از صنایع</h4>
+                        <p class="card-text"> سامانه همگام به منظور برقراری ارتباط فعال و سازنده مابین دانشجویان، اساتید و صنایع در شهریور ماه 1398 راه اندازی شد.
+                        </p>
+                    </div>
+                    <div class="card-footer" style="background: inherit; border-color: inherit;">
+                        <div align="right">
+                            <button class="custom-btn text-center m-0 "type="submit" >
+                                <span>بیشتر</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 pb-3">
+                <div class="card card-custom bg-white border-white border-0">
+                    <div class="card-custom-img" style="background-image: url('/img/invite.jpg');"></div>
+                    <div class="card-custom-avatar">
+                        {{--<img class="img-fluid" src="http://res.cloudinary.com/d3/image/upload/c_pad,g_center,h_200,q_auto:eco,w_200/bootstrap-logo_u3c8dx.jpg" alt="Avatar" />--}}
+                    </div>
+                    <div class="card-body pt-2" style="overflow-y: auto">
+                        <h4 class="card-title">دعوت از صاحبان صنایع</h4>
                         <p class="card-text"> سامانه همگام به منظور برقراری ارتباط فعال و سازنده مابین دانشجویان، اساتید و صنایع در شهریور ماه 1398 راه اندازی شد.
                         </p>
                     </div>
@@ -128,17 +106,7 @@
         </div>
     </div>
 </div>
-
-
-
-
-
 @include('include.footer')
-
-<!-- ##### All Javascript Script ##### -->
-<!-- jQuery-2.2.4 js -->
-{{--@include('include.javascript')--}}
 <script  src= {{asset('/js/num-animation.js')}}></script>
 </body>
-
 </html>

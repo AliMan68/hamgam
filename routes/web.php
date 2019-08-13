@@ -38,6 +38,18 @@ Route::get('/skill-learning/courses',function (){
   return view('site.skill-courses');
 
 });
+Route::get('/gathering',function (){
+  return view('site.gathering');
+
+});
+Route::get('/idea',function (){
+  return view('site.idea');
+
+});
+Route::get('/حع',function (){
+  return view('site.idea');
+
+});
 
 //Auth
 
