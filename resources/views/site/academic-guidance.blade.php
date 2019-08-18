@@ -55,9 +55,11 @@
                     </div>
                     <div class="card-footer" style="background: inherit; border-color: inherit;">
                         <div align="right">
-                            <button class="custom-btn text-center m-0 "type="submit" >
-                                <span>بیشتر</span>
-                            </button>
+                            <a href="{{url('/content')}}">
+                                <button class="custom-btn text-center m-0 "type="submit" >
+                                    <span>بیشتر</span>
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -74,11 +76,11 @@
                         </p>
                     </div>
                     <div class="card-footer" style="background: inherit; border-color: inherit;">
-                        <div align="right">
+                        <a href="{{url('/relative-jobs')}}">
                             <button class="custom-btn text-center m-0 "type="submit" >
                                 <span>بیشتر</span>
                             </button>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -95,9 +97,11 @@
                     </div>
                     <div class="card-footer" style="background: inherit; border-color: inherit;">
                         <div align="right">
-                            <button class="custom-btn text-center m-0 "type="submit" >
-                                <span>بیشتر</span>
-                            </button>
+                            <a href="{{url('/academic-guidance/consult')}}">
+                                <button class="custom-btn text-center m-0 "type="submit" >
+                                    <span>بیشتر</span>
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -117,11 +121,11 @@
                         </p>
                     </div>
                     <div class="card-footer" style="background: inherit; border-color: inherit;">
-                        <div align="right">
+                        <a href="{{url('/content')}}">
                             <button class="custom-btn text-center m-0 "type="submit" >
                                 <span>بیشتر</span>
                             </button>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>

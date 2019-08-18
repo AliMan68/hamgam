@@ -23,9 +23,6 @@
                                 </li>
                             </ul>
                             <ul class="navbar-nav ml-auto py-4 py-md-0">
-                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                    <a class="nav-link" href="#">ارتباط با ما</a>
-                                </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
                                     <a class="nav-link dropdown-toggle" href="{{url('/success')}}">موفقیت</a>
                                     <div class="dropdown-menu">
@@ -42,7 +39,7 @@
                                     <a class="nav-link" href="{{url('/gathering')}}">گردهمایی</a>
                                     <div class="dropdown-menu">
 
-                                        <a class="dropdown-item" href="{{url('/skill-learning/courses')}}">کارگاه های آموزشی </a>
+                                        <a class="dropdown-item" href="{{url('/gathering/workshop')}}">کارگاه های آموزشی </a>
                                         <a class="dropdown-item text-right" href="{{url('/skill-learning/courses')}}" >بازدید از صنایع</a>
                                         <a class="dropdown-item" href="#">دعوت از صاحبان صنایع</a>
                                     </div>

@@ -53,7 +53,7 @@
                     </div>
                     <div class="card-footer" style="background: inherit; border-color: inherit;">
                         <div align="right">
-                            <a href="{{url('/skill-learning/courses')}}">
+                            <a href="{{url('/gathering/workshop')}}">
                                 <button class="custom-btn text-center m-0 "type="submit" >
                                     <span>بیشتر</span>
                                 </button>
@@ -76,9 +76,11 @@
                     </div>
                     <div class="card-footer" style="background: inherit; border-color: inherit;">
                         <div align="right">
-                            <button class="custom-btn text-center m-0 "type="submit" >
-                                <span>بیشتر</span>
-                            </button>
+                            <a href="{{url('/gathering/visit-industries')}}">
+                                <button class="custom-btn text-center m-0 "type="submit" >
+                                    <span>بیشتر</span>
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>

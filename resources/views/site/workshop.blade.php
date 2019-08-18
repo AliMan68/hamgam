@@ -23,67 +23,9 @@
         <div class="container-fluid">
             <div class="row mt-2">
                 <div class="col-5 mr-auto ml-auto bottom-line">
-                    <h2 class="text-center  p-2 mt-5 text-dark" style="font-family: Vazir; font-size: 1.8rem ; text-align: center"> دوره های مهارتی ارائه شده </h2>
+                    <h2 class="text-center  p-2 mt-5 text-dark" style="font-family: Vazir; font-size: 1.8rem ; text-align: center">کارگاه های آموزشی ارائه شده </h2>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
-<div class="filter-section mt-2">
-    <div class="container  mt-4">
-        <div class="d-flex flex-row-reverse flex-wrap align-content-center ">
-            <div class="flex-item text-dark">
-                <h6>: فیلتر براساس  </h6>
-            </div>
-
-
-            <div class="flex-item text-dark  mr-5 ">
-                <p>: دانشکده  </p>
-            </div>
-            <div class="flex-item text-dark">
-                <select class="browser-default custom-select " id="faculties">
-                    <option selected>همه دانشکده ها</option>
-                    <option value="1"> فنی</option>
-                    <option value="2">علوم پایه</option>
-                    <option value="3">کامپیوتر</option>
-                    <option value="3">برق</option>
-                </select>
-            </div>
-            <div class="flex-item text-dark  mr-2 ">
-                <p>: رشته  </p>
-            </div>
-
-            <div class="flex-item text-dark ">
-                <select class="browser-default custom-select" id="fields">
-                    <option selected>همه رشته ها</option>
-                    <option value="1"> آی تی</option>
-                    <option value="2">علوم کامپیوتر</option>
-                    <option value="3">نرم افزار</option>
-                    <option value="3">سیستم های اطلاعاتی</option>
-                </select>
-            </div>
-            <div class="flex-item text-dark  mr-2 ">
-                <p>: نیم سال  </p>
-            </div>
-
-            <div class="flex-item text-dark ">
-                <select class="browser-default custom-select" id="schedule">
-                    <option selected>همه</option>
-                    <option value="1"> اول</option>
-                    <option value="2">دوم</option>
-                    <option value="3">تابستان</option>
-                </select>
-            </div>
-            <div class="flex-item text-dark ">
-                <a href="{{url('/')}}">
-                    <button class="custom-btn text-center mr-2 "type="submit" style="max-width: 130px">
-                        <span>جستجو</span>
-                    </button>
-                </a>
-            </div>
-
-
-
         </div>
     </div>
 </div>

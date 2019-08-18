@@ -14,7 +14,15 @@
     @include('include.nav-style-js')
 </head>
 <body>
-
+@include('include.navigation')
+<div class="container py-5 " style="margin-top: 150px; background-color: #4fa1bf;margin-bottom: 150px; ">
+    <div class="d-flex flex-row-reverse">
+        <div class="text-white text-right ">
+            <h3 style="font-family: Vazir;"> پنل مدیریت </h3>
+        </div>
+    </div>
+    @include('admin.admin-navbar')
+</div>
 @include('include.footer')
 </body>
 

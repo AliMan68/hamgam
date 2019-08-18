@@ -1,1 +1,1 @@
-<title class="bg-warning" style="text-align: right; font-family: Vazir">سامانه همگام</title>
+<title class="bg-warning" style="text-align: right; font-family: Vazir;direction: rtl !important;">سامانه همگام</title>
