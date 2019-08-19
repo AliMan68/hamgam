@@ -32,14 +32,14 @@
                     </h5>
                     <form class="text-right forms mt-3">
                         <div class="form-group">
-                            <input required type="email" class="form-control text-right"  id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ایمیل را وارد نمایید">
+                            <input required type="email" class="form-control text-right"  id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=".ایمیل را وارد نمایید">
                         </div>
                         <div class="form-group">
                             <input required type="text" class="form-control text-right"  id="name" aria-describedby="name" placeholder="نام ">
                         </div>
                         <div class="form-group">
                             <textarea required class="form-control" id="questions" placeholder="سوال و درخواست ها">
-                                سوال و درخواست ها
+
                             </textarea>
                         </div>
                         <div class="button_cont" align="left">

@@ -38,9 +38,9 @@
         <div class="container">
             <div class="row py-4">
                 <div class="col-lg-3 col-md-6 col-sm-12 text-center my-1">
-                    <i class="fa fa-graduation-cap "></i>
-                    <div class="count">124</div>
-                    <div class="title"> کار آموز </div>
+                    <i class="fa fa-folder-open "></i>
+                    <div class="count">93</div>
+                    <div class="title"> دوره ارائه شده </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 text-center my-1">
                     <i class="fa fa-search-plus  "></i>

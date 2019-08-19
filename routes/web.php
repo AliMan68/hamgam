@@ -86,3 +86,24 @@ Route::get('/signin',function (){
 Route::get('/admin/admin',function (){
   return view('admin.admin');
 });
+Route::get('/admin/about-hamgam',function (){
+  return view('admin.about-hamgam');
+});
+Route::get('/admin/statistic',function (){
+  return view('admin.statistic');
+});
+Route::get('/admin/question',function (){
+  return view('admin.question');
+});
+Route::get('/admin/connection',function (){
+  return view('admin.connection');
+});
+Route::get('/admin/inquery',function (){
+  return view('admin.inquery');
+});
+Route::get('/admin/purpose',function (){
+  return view('admin.purpose');
+});
+Route::get('/admin/jobs',function (){
+  return view('admin.jobs');
+});

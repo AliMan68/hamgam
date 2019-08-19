@@ -8,7 +8,7 @@
             <div class="col-12">
                 <header>
                     <nav class="navbar navbar-expand-md  navbar-light ">
-                        <a class="navbar-brand p-0 m-0" href="{{url('/home')}}" target="_blank"><img src="{{asset('/img/hamgam-logo.png')}}" alt=""></a>
+                        <a class="navbar-brand p-0 m-0" href="{{url('/')}}" target="_blank"><img src="{{asset('/img/hamgam-logo.png')}}" alt=""></a>
 
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -57,7 +57,7 @@
                                     <a class="nav-link" href="{{url('/academic-guidance')}}">هدایت شغلی</a>
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                                    <a class="nav-link" href="{{url('/home')}}">خانه</a>
+                                    <a class="nav-link" href="{{url('/')}}">خانه</a>
                                 </li>
                             </ul>
                         </div>
@@ -99,4 +99,4 @@
 <!-- Link to page
 ================================================== -->
 
-<a href=""      class="link-to-portfolio" target=”_blank”></a>
+{{--<a href=""      class="link-to-portfolio" target=”_blank”></a>--}}

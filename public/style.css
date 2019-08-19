@@ -205,6 +205,7 @@ h3{
 .panel-title:hover {
   text-decoration: none;
   color: rgb(235, 24, 92);
+  cursor: pointer;
 }
 .panel-body{
   text-align: right;
@@ -588,6 +589,76 @@ input::placeholder{
 .nav-mega a{
   color: black;
 }
+.side-list  {
+  font-family: Vazir;
+  overflow: auto;
+  max-height: 390px;
+}
+.side-list2  {
+  font-family: Vazir;
+  overflow: auto;
+  max-height: 200px;
+}
+
+.side-list2 p{
+  font-size: 0.8rem;
+}
+.side-list2 .custom-btn{
+  max-width: 60px;
+  max-height: 40px;
+}
+.side-list2 a:hover{
+  text-decoration: none;
+  color: #0056b3;
+}
+.side-list2 li{
+  padding: 5px 8px;
+  border-bottom: 1px solid #8d0c35;
+}
+
+
+
+
+.side-list {
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.8);
+}
+.side-list p{
+  font-size: 0.8rem;
+}
+.side-list .custom-btn{
+  max-width: 60px;
+  max-height: 40px;
+}
+.side-list a:hover{
+  text-decoration: none;
+  color: #0056b3;
+}
+.side-list li{
+  padding: 5px 8px;
+  border-bottom: 1px solid #8d0c35;
+}
+#side-list label{
+  font-family: Vazir;
+  text-align: right;
+  font-size: 1rem;
+  color: white;
+
+}
+#side-list input::placeholder{
+  color: gray;
+  font-size: 0.7rem;
+  }
+#side-list input{
+  font-size: 0.8rem;
+}
+.nav-hover:hover{
+  background: #8d0c35;
+  border-radius: 2px;
+  padding: 0px 50px;
+}.nav-hover a:hover{
+  color: black;
+ }
 /*a {*/
   /*text-decoration: none;*/
   /*color: rgba(255, 255, 255, 0.6);*/
