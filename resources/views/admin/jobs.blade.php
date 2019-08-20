@@ -158,11 +158,17 @@
             <div class="col-md-8 col-sm-12 ">
                 <h5 class="text-white text-right mb-2" style="font-family: Vazir">شغل های مرتبط</h5>
 
-                <form action="" class="px-3" style="direction: rtl">
+                <form action="" class="px-3" style="direction: rtl;font-family: Vazir">
                     <div class="form-group row py-4">
                         <label class="col-md-4 col-form-label " style=""> عنوان شغل :</label>
-                        <input type="text" id="title" required
-                               class="form-control col-md-8 "  name="name" placeholder="">
+                        <select class="browser-default custom-select col-md-8">
+                            <option selected>نام شغل</option>
+                            <option value="1">مهندسی نرم افزار</option>
+                            <option value="2">مهندسی برق</option>
+                            <option value="3">مدیریت دولتی</option>
+                            <option value="3">مطالعات خانواده</option>
+                            <option value="3">زبان</option>
+                        </select>
                     </div>
                     <div class="form-group row py-4">
                         <label class="col-md-2 col-form-label " style="" >تصویر  :</label>
@@ -179,21 +185,42 @@
                         <label class="col-md-3 col-form-label ">توضیح مختصر :</label>
                         <div class="col-md-8 mr-auto">
                     <textarea type="text" id="editor1" required=""
-                              class="form-control" name="description" placeholder="محنوای">
+                              class="form-control" name="description" placeholder="توضیحات">
                     </textarea>
                         </div>
                     </div>
                     <div class="form-group row py-4">
-                        <label class="col-md-4 col-form-label " style="" for="title">رشته مرتبط</label>
-                        <div class="col-md-8 mr-auto">
-                            <div  id="fileInputsContainer">
-                                <div class="d-flex flex-row justify-content-between">
-                                    <input type="text" id="images"
-                                           class="form-control-file " name="images[]">
-                                    <button class="custom-btn text-white " onclick="addDocumentInput()">اضافه کردن رشته جدید</button>
-
-                                </div>
-                            </div> </div>
+                        <label class="col-md-2 col-form-label " style="" for="title">رشته(ها) مرتبط :</label>
+                        <div class="col-md-3 text-dark " style="direction: rtl">
+                            <select class="browser-default custom-select ">
+                                <option selected>رشته اول</option>
+                                <option value="1">مهندسی نرم افزار</option>
+                                <option value="2">مهندسی برق</option>
+                                <option value="4">مدیریت دولتی</option>
+                                <option value="5">مطالعات خانواده</option>
+                                <option value="6">زبان</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 text-dark " style="direction: rtl">
+                            <select class="browser-default custom-select ">
+                                <option selected>رشته دوم</option>
+                                <option value="1">مهندسی نرم افزار</option>
+                                <option value="2">مهندسی برق</option>
+                                <option value="4">مدیریت دولتی</option>
+                                <option value="5">مطالعات خانواده</option>
+                                <option value="6">زبان</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 text-dark " style="direction: rtl">
+                            <select class="browser-default custom-select ">
+                                <option selected>رشته سوم</option>
+                                <option value="1">مهندسی نرم افزار</option>
+                                <option value="2">مهندسی برق</option>
+                                <option value="4">مدیریت دولتی</option>
+                                <option value="5">مطالعات خانواده</option>
+                                <option value="6">زبان</option>
+                            </select>
+                        </div>
                     </div>
                     {{--<div class="form-group row pt-4">--}}
                     {{--<label class="col-md-3 col-form-label "--}}
@@ -220,14 +247,4 @@
 </div>
 @include('include.footer')
 </body>
-<script>
-  function addDocumentInput() {
-    var referenceNode = document.getElementById('fileInputsContainer').lastChild;
-    var newNode = document.createElement("DIV");
-    newNode.className += 'mt-1'
-    newNode.innerHTML = '<input type="text"  required=""\n' +
-      '                       class="form-control-file" name="images[]">'
-    referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
-  }
-</script>
 </html>
