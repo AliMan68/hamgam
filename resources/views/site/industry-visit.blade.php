@@ -42,7 +42,7 @@
                         <h4 class="card-title"> بازدید از شرکت پالاز</h4>
                         <p class="card-text"> سامانه همگام به منظور برقراری ارتباط فعال و سازنده مابین دانشجویان، اساتید و صنایع در شهریور ماه 1398 راه اندازی شد.
                         </p>
-                        <p>زمان : شنبه ها ساعت 11</p>
+                        <p>زمان و مکان حرکت :شنبه ساعت 11، روبروی علوم پایه  </p>
                     </div>
                     <div class="card-footer" style="background: inherit; border-color: inherit;">
                         <div align="right">
@@ -66,7 +66,7 @@
                         <h4 class="card-title"> بازدید از شرکت پالاز</h4>
                         <p class="card-text"> سامانه همگام به منظور برقراری ارتباط فعال و سازنده مابین دانشجویان، اساتید و صنایع در شهریور ماه 1398 راه اندازی شد.
                         </p>
-                        <p>زمان : شنبه ها ساعت 11</p>
+                        <p>زمان و مکان حرکت :شنبه ساعت 11، روبروی علوم پایه  </p>
                     </div>
                     <div class="card-footer" style="background: inherit; border-color: inherit;">
                         <div align="right">
@@ -90,7 +90,7 @@
                         <h4 class="card-title"> بازدید از شرکت پالاز</h4>
                         <p class="card-text"> سامانه همگام به منظور برقراری ارتباط فعال و سازنده مابین دانشجویان، اساتید و صنایع در شهریور ماه 1398 راه اندازی شد.
                         </p>
-                        <p>زمان : شنبه ها ساعت 11</p>
+                        <p>زمان و مکان حرکت :شنبه ساعت 11، روبروی علوم پایه  </p>
                     </div>
                     <div class="card-footer" style="background: inherit; border-color: inherit;">
                         <div align="right">

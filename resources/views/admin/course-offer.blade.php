@@ -25,33 +25,41 @@
     <div class="container my-4 " id="side-list">
         <div class="row">
             <div class="col-md-10 col-sm-12 ml-auto mr-auto">
-                <h5 class="text-white text-right mb-2" style="font-family: Vazir">پیام و درخواست های دریافتی</h5>
+                <h5 class="text-white text-right mb-2" style="font-family: Vazir">پیشنهادهای برگزاری دوره ها </h5>
                 <table class="table table-striped text-center" style="direction: rtl;font-family: Vazir">
                     <thead>
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col">اطلاعات فردی</th>
                         <th scope="col">ایمیل</th>
-                        <th scope="col">پیام دریافتی</th>
+                        <th scope="col">شماره تماس</th>
+                        <th scope="col">نوع کاربر</th>
+                        <th scope="col">مشاهده پیشنهاد</th>
                     </tr>
                     </thead>
-                    <tbody>
+                    <tbody class="text-white">
                     <tr>
                         <th scope="row">1</th>
                         <td>علی عربگری</td>
                         <td>Aliarabgary2gmail.com</td>
+                        <td>09367904148</td>
+                        <td>دانشجو</td>
                         <td><button class="custom-btn text-center" style="max-width: 150px" data-toggle="modal" data-target="#myModal">مشاهده </button></td>
                     </tr>
                     <tr>
                         <th scope="row">1</th>
                         <td>علی عربگری</td>
                         <td>Aliarabgary2gmail.com</td>
+                        <td>09367904148</td>
+                        <td>انجمن</td>
                         <td><button class="custom-btn text-center" style="max-width: 150px" data-toggle="modal" data-target="#myModal">مشاهده </button></td>
                     </tr>
                     <tr>
                         <th scope="row">1</th>
                         <td>علی عربگری</td>
                         <td>Aliarabgary2gmail.com</td>
+                        <td>09367904148</td>
+                        <td>صنایع</td>
                         <td><button class="custom-btn text-center" style="max-width: 150px" data-toggle="modal" data-target="#myModal">مشاهده </button></td>
                     </tr>
                     </tbody>
@@ -62,8 +70,6 @@
         </div>
     </div>
 </div>
-
-
 <!-- The Modal -->
 <div class="modal fade" id="myModal" style="font-family: Vazir">
     <div class="modal-dialog">
@@ -88,8 +94,17 @@
         </div>
     </div>
 </div>
-
 </div>
 @include('include.footer')
 </body>
+<script>
+  function addDocumentInput() {
+    var referenceNode = document.getElementById('fileInputsContainer').lastChild;
+    var newNode = document.createElement("DIV");
+    newNode.className += 'mt-1'
+    newNode.innerHTML = '<input type="file"  required=""\n' +
+      '                       class="form-control-file" name="images[]">'
+    referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+  }
+</script>
 </html>

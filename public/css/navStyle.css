@@ -380,7 +380,7 @@ body.hero-anime #switch{
   max-height: 0;
   display: block;
   padding: 0;
-  margin: 0;
+  margin:0;
   transition: all 200ms linear;
 }
 .nav-item:hover .dropdown-menu{
@@ -403,7 +403,7 @@ body.hero-anime #switch{
   padding: 10px!important;
   margin: 0;
   font-size: 13px;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   color: #212121;
   background-color: #fcfaff;
   border: none;

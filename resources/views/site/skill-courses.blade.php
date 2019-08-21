@@ -110,7 +110,7 @@
                         <div align="right">
                             <a href="{{url('/skill-learning/courses')}}">
                                 <button class="custom-btn text-center m-0 "type="submit" >
-                                    <span>بیشتر</span>
+                                    <span>ثبت نام</span>
                                 </button>
                             </a>
 
@@ -136,7 +136,7 @@
                     <div class="card-footer" style="background: inherit; border-color: inherit;">
                         <div align="right">
                             <button class="custom-btn text-center m-0 "type="submit" >
-                                <span>بیشتر</span>
+                                <span>ثبت نام</span>
                             </button>
                         </div>
                     </div>
@@ -160,7 +160,7 @@
                     <div class="card-footer" style="background: inherit; border-color: inherit;">
                         <div align="right">
                             <button class="custom-btn text-center m-0 "type="submit" >
-                                <span>بیشتر</span>
+                                <span>ثبت نام</span>
                             </button>
                         </div>
                     </div>
@@ -186,7 +186,7 @@
                         <div align="right">
                             <a href="{{url('/skill-learning/courses')}}">
                                 <button class="custom-btn text-center m-0 "type="submit" >
-                                    <span>بیشتر</span>
+                                    <span>ثبت نام</span>
                                 </button>
                             </a>
 
@@ -212,7 +212,7 @@
                     <div class="card-footer" style="background: inherit; border-color: inherit;">
                         <div align="right">
                             <button class="custom-btn text-center m-0 "type="submit" >
-                                <span>بیشتر</span>
+                                <span>ثبت نام</span>
                             </button>
                         </div>
                     </div>
@@ -236,7 +236,7 @@
                     <div class="card-footer" style="background: inherit; border-color: inherit;">
                         <div align="right">
                             <button class="custom-btn text-center m-0 "type="submit" >
-                                <span>بیشتر</span>
+                                <span>ثبت نام</span>
                             </button>
                         </div>
                     </div>

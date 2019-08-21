@@ -95,15 +95,63 @@ Route::get('/admin/statistic',function (){
 Route::get('/admin/question',function (){
   return view('admin.question');
 });
+
 Route::get('/admin/connection',function (){
   return view('admin.connection');
 });
+
 Route::get('/admin/inquery',function (){
   return view('admin.inquery');
 });
+
 Route::get('/admin/purpose',function (){
   return view('admin.purpose');
 });
+
 Route::get('/admin/jobs',function (){
   return view('admin.jobs');
+});
+
+Route::get('/admin/consult',function (){
+  return view('admin.consult');
+});
+
+Route::get('/admin/change-field',function (){
+  return view('admin.change-field');
+});
+
+Route::get('/admin/skill-courses',function (){
+  return view('admin.skill-coures');
+});
+
+Route::get('/admin/explanation',function (){
+  return view('admin.explanation');
+});
+
+Route::get('/admin/course-offer',function (){
+  return view('admin.course-offer');
+});
+
+Route::get('/admin/schedule',function (){
+  return view('admin.schedule');
+});
+
+Route::get('/admin/workshop',function (){
+  return view('admin.workshop');
+});
+
+Route::get('/admin/workshop-detailes',function (){
+  return view('admin.workshop-detailes');
+});
+
+Route::get('/admin/course-detailes',function (){
+  return view('admin.course-detailes');
+});
+
+Route::get('/admin/visit-industries',function (){
+  return view('admin.visit-industries');
+});
+
+Route::get('/admin/visit-details',function (){
+  return view('admin.visit-details');
 });

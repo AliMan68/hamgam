@@ -73,7 +73,7 @@
 }
 
 body{
-  font-family: 'Poppins', sans-serif;
+  font-family: Vazir;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -597,7 +597,7 @@ input::placeholder{
 .side-list2  {
   font-family: Vazir;
   overflow: auto;
-  max-height: 200px;
+  max-height: 350px;
 }
 
 .side-list2 p{
@@ -679,3 +679,6 @@ input::placeholder{
 #side-list2  input{
  padding-right: 20px;
  }
+.usr-table tr{
+  line-height: 16px;
+}
