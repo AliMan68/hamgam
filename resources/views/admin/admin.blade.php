@@ -110,41 +110,6 @@
                         <input type="text" id="title" required=""
                                class="form-control col-md-8 "  name="name" placeholder="اختیاری">
                     </div>
-                    {{--<div class="form-group row pt-4">--}}
-                        {{--<label class="col-md-3 col-form-label "--}}
-                               {{--style="" for="title">Name :</label>--}}
-                        {{--<div class="col-md-8 mr-auto">--}}
-                            {{--<select name="name" id="" class="form-control">--}}
-                                {{--<option value="1"></option>--}}
-                                {{--<option value="Departments & Courses">Departments & Courses</option>--}}
-                                {{--<option value="How to apply">How to apply</option>--}}
-
-                            {{--</select>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                    {{--<div class="form-group row py-4">--}}
-                        {{--<label class="col-md-3 col-form-label "> text :</label>--}}
-                        {{--<div class="col-md-8 mr-auto">--}}
-                           {{--<textarea type="text" id="editor1" required=""--}}
-                                     {{--class="form-control" name="description" placeholder="set content here">--}}
-                            {{--</textarea>--}}
-                            {{--<script>--}}
-                              {{--CKEDITOR.replace( 'editor1' );--}}
-                            {{--</script>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-
-                    {{--<div class="form-group row py-4">--}}
-                        {{--<label class="col-md-3 col-form-label " style="" for="title">Document :</label>--}}
-                        {{--<div class="col-md-8 mr-auto">--}}
-                            {{--<div  id="fileInputsContainer">--}}
-                                {{--<div class="d-flex flex-row justify-content-between">--}}
-                                    {{--<input type="file" id="images"--}}
-                                           {{--class="form-control-file" name="images[]">--}}
-                                    {{--<button class="btn btn-outline-success text-dark " onclick="addDocumentInput()">Add Document</button>--}}
-                                {{--</div>--}}
-                            {{--</div> </div>--}}
-                    {{--</div>--}}
                     <div class="d-flex justify-content-center mb-3">
                         <button class="custom-btn text-center" type="submit" style="max-width: 120px">ذخیره</button>
                     </div>

@@ -25,96 +25,53 @@
     <div class="container-fluid my-4 " id="side-list">
         <div class="row">
             <div class="col-md-12 col-sm-12 ml-auto mr-auto">
-                <h6 class="text-white text-right mb-2" style="font-family: Vazir">مشاوره (توجه: برای پاسخ دهی فقط یکی از گزینه های ارسال به مشاور و یا پاسخ خود مدیریت انتخاب شود.)</h6>
+                <h6 class="text-white text-right mb-2" style="font-family: Vazir">مدیریت دانشجویان</h6>
+                    <form action="" class="row" style="">
+                        <div class="form-group col-md-8 py-4 d-flex ml-auto mr-auto">
+                            <button class="custom-btn text-center m-0" type="submit" style="max-width: 60px;font-size: 0.8rem">جستجو</button>
+                            <input type="number" id="title" required=""
+                                   class="form-control ml-2"  name="name" placeholder="شماره ملی">
+                            <input type="text" id="title" required=""
+                                   class="form-control ml-2"  name="name" placeholder="نام و نام خانوادگی">
+                        </div>
+                    </form>
+
+
+
                 <table class="table table-striped text-center" style="direction: rtl;font-family: Vazir">
                     <thead>
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col">اطلاعات فردی</th>
-                        <th scope="col">ایمیل</th>
+                        <th scope="col">کد ملی</th>
+                        <th scope="col">شماره دانشجویی</th>
                         <th scope="col">شماره تماس</th>
                         <th scope="col">رشته تحصیلی</th>
-                        <th scope="col">مشاهده پرسش</th>
-                        <th scope="col">ارسال به مشاور</th>
-                        <th scope="col">پاسخ دادن</th>
-                        <th scope="col">وضعیت</th>
+                        <th scope="col">جزئیات</th>
                     </tr>
                     </thead>
                     <tbody class="text-white" style="font-size: 0.9rem">
                     <tr>
                         <th scope="row">1</th>
                         <td>علی عربگری</td>
-                        <td>Aliarabgary2gmail.com</td>
-                        <td>09367904148</td>
+                        <td>4490337789</td>
+                        <td>931831229</td>
+                        <td>09365018124</td>
                         <td>کارشناسی فناوری اطلاعات</td>
-                        <td><button class="custom-btn text-center" style="max-width: 100px" data-toggle="modal" data-target="#myModal">مشاهده </button></td>
-
                         <td>
-                            <div class="d-flex  p-2 justify-content-between">
-                                <select class=" custom-select ml-2" style="font-size: 0.7rem;min-width: 120px">
-                                    <option selected>نام مشاور</option>
-                                    <option value="1">علی احمدی</option>
-                                    <option value="2">رضا یزدانی</option>
-                                    <option value="3">محمدرضا فروتن</option>
-                                    <option value="4">بهرام نورایی</option>
-                                </select>
-                                <button class="custom-btn text-center mt-0" style="max-width: 50px">ارسال</button>
-
-                            </div>
+                                <a href="{{asset('/admin/users/student-detailes')}}" class="custom-btn text-center mt-0" style="max-width: 80px;text-decoration: none">جزئیات</a>
                         </td>
-                        <td><button class="custom-btn text-center" style="max-width: 100px" data-toggle="modal" data-target="#myModal1">پاسخ </button></td>
-
-                        <td >پاسخ داده نشده</td>
                     </tr>
                     <tr>
                         <th scope="row">1</th>
                         <td>علی عربگری</td>
-                        <td>Aliarabgary2gmail.com</td>
-                        <td>09367904148</td>
+                        <td>4490337789</td>
+                        <td>931831229</td>
+                        <td>09365018124</td>
                         <td>کارشناسی فناوری اطلاعات</td>
-                        <td><button class="custom-btn text-center" style="max-width: 100px" data-toggle="modal" data-target="#myModal">مشاهده </button></td>
-
                         <td>
-                            <div class="d-flex  p-2 justify-content-between">
-                                <select class=" custom-select ml-2" style="font-size: 0.7rem;min-width: 120px">
-                                    <option selected>نام مشاور</option>
-                                    <option value="1">علی احمدی</option>
-                                    <option value="2">رضا یزدانی</option>
-                                    <option value="3">محمدرضا فروتن</option>
-                                    <option value="4">بهرام نورایی</option>
-                                </select>
-                                <button class="custom-btn text-center mt-0" style="max-width: 50px">ارسال</button>
-
-                            </div>
+                                <a href="{{asset('/admin/users/student-detailes')}}" class="custom-btn text-center mt-0" style="max-width: 80px;text-decoration: none">جزئیات</a>
                         </td>
-                        <td><button class="custom-btn text-center" style="max-width: 100px" data-toggle="modal" data-target="#myModal1">پاسخ </button></td>
-
-                        <td >پاسخ داده نشده</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>علی عربگری</td>
-                        <td>Aliarabgary2gmail.com</td>
-                        <td>09367904148</td>
-                        <td>کارشناسی فناوری اطلاعات</td>
-                        <td><button class="custom-btn text-center" style="max-width: 100px" data-toggle="modal" data-target="#myModal">مشاهده </button></td>
-
-                        <td>
-                            <div class="d-flex  p-2 justify-content-between">
-                                <select class=" custom-select ml-2" style="font-size: 0.7rem;min-width: 120px">
-                                    <option selected>نام مشاور</option>
-                                    <option value="1">علی احمدی</option>
-                                    <option value="2">رضا یزدانی</option>
-                                    <option value="3">محمدرضا فروتن</option>
-                                    <option value="4">بهرام نورایی</option>
-                                </select>
-                                <button class="custom-btn text-center mt-0" style="max-width: 50px">ارسال</button>
-
-                            </div>
-                        </td>
-                        <td><button class="custom-btn text-center" style="max-width: 100px" data-toggle="modal" data-target="#myModal1">پاسخ </button></td>
-
-                        <td >پاسخ داده نشده</td>
                     </tr>
                     </tbody>
                 </table>

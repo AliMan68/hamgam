@@ -34,12 +34,14 @@
                     <select class="browser-default custom-select">
                         <option selected>نوع کاربر</option>
                         <option value="1">دانشجو</option>
+                        <option value="2">استاد</option>
                         <option value="2">صنایع</option>
                         <option value="3">مدیریت</option>
                         <option value="3">انجمن</option>
                     </select>
                     <input type="email" required class=" ml-auto mr-auto" placeholder="نام کاربری">
                     <input type="password" required class=" ml-auto mr-auto" placeholder="رمز عبور">
+                        <p style="color: #721c24;text-align: right;font-family: Vazir;font-size: 0.8rem">.اطلاعات وارد شده صحیح نیست.مجددا تلاش کنید</p>
                     <a href="{{url('/admin/admin')}}" class="text-white">
                     <button class="custom-btn text-center m-0 "type="submit" >
                      <span>ورود</span>

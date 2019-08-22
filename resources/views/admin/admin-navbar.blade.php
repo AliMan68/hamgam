@@ -72,21 +72,8 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarSite">
                         {{--<a class="dropdown-item" href="#">دوره های مهارتی</a>--}}
-                        <a class="dropdown-item" href="{{url('/admin/admin')}}">ایده و حمایت</a>
-                        <a class="dropdown-item" href="{{url('/admin/about-hamgam')}}">تشکیل گروه های استارت آپی</a>
-                    </div>
-                </li>
-                <li class="navbar-ticket nav-item  mx-2">
-                    <a id="adminNavTickets" class="nav-link navbar-ticket-a nav-hover" href="#" id="navbarTicket" role="button">
-                        <i class="fa fa-ticket mt-1"></i>
-                        بخش ایده ها
-                        <span class="new-ticket"></span>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarSite">
-                        {{--<a class="dropdown-item" href="#">دوره های مهارتی</a>--}}
-                        <a class="dropdown-item" href="{{url('/admin/admin')}}">الگوهای برتر اشتغال</a>
-                        <a class="dropdown-item" href="{{url('/admin/admin')}}">فارغ التحصیلان شاغل</a>
-                        <a class="dropdown-item" href="{{url('/admin/about-hamgam')}}">گروه های استارت آپی دانشگاه</a>
+                        <a class="dropdown-item" href="{{url('/admin/idea-support')}}">ایده و حمایت</a>
+                        <a class="dropdown-item" href="{{url('/admin/startup')}}">تشکیل گروه های استارت آپی</a>
                     </div>
                 </li>
                 <li class="navbar-ticket nav-item  mx-2">
@@ -97,9 +84,11 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarSite">
                         {{--<a class="dropdown-item" href="#">دوره های مهارتی</a>--}}
-                        <a class="dropdown-item" href="{{url('/admin/admin')}}">دانشجویان</a>
-                        <a class="dropdown-item" href="{{url('/admin/admin')}}">انجمن ها</a>
+                        <a class="dropdown-item" href="{{url('/admin/users/student')}}">دانشجویان</a>
+                        <a class="dropdown-item" href="{{url('/admin/users/master')}}">اساتید</a>
+                        <a class="dropdown-item" href="{{url('/admin/users/forums')}}">انجمن ها</a>
                         <a class="dropdown-item" href="{{url('/admin/about-hamgam')}}">صنایع</a>
+                        <a class="dropdown-item" href="{{url('/admin/about-hamgam')}}">مشاور</a>
                     </div>
                 </li>
                 {{--<li  class="dropdown nav-item mx-2 btn-primary">--}}

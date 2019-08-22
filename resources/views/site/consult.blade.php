@@ -18,40 +18,6 @@
 
 <body>
 @include('include.navigation')
-{{--<div class="consult-form">--}}
-    {{--<div class="container">--}}
-        {{--<div class="row">--}}
-            {{--<div class="col-md-6 mr-auto ml-auto">--}}
-                {{--<form class="text-right forms mt-3">--}}
-                    {{--<div class="form-group row">--}}
-                        {{--<input required type="email" class="col-9 form-control text-right"  id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=".نام و نام خانوادگی خود را اینجا وارد نمایید">--}}
-                        {{--<label for="exampleInputEmail1" class="col-3 text-dark mt-2"> : نام و نام خانوادگی </label>--}}
-                    {{--</div>--}}
-                    {{--<div class="form-group">--}}
-                        {{--<select class="browser-default custom-select text-right col-9">--}}
-                            {{--<option selected>نوع کاربر</option>--}}
-                            {{--<option value="1">دانشجو</option>--}}
-                            {{--<option value="2">صنایع</option>--}}
-                            {{--<option value="3">مدیریت</option>--}}
-                            {{--<option value="3">انجمن</option>--}}
-                        {{--</select> <label for="exampleInputEmail1" class="col-3 text-dark mt-2"> : نام و نام خانوادگی </label>--}}
-                    {{--</div>--}}
-                    {{--<div class="form-group">--}}
-                            {{--<textarea required class="form-control" id="questions" placeholder="سوال و درخواست ها">--}}
-                                {{--سوال و درخواست ها--}}
-                            {{--</textarea>--}}
-                    {{--</div>--}}
-                    {{--<div class="button_cont" align="left">--}}
-                        {{--<button class="custom-btn text-center"type="submit" >--}}
-                            {{--<span>ارسال</span>--}}
-                        {{--</button>--}}
-                    {{--</div>--}}
-                    {{--<button type="submit" class="btn btn-primary">ارسال</button>--}}
-                {{--</form>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</div>--}}
-{{--</div>--}}
 
 <div>
     <div class="pt-5 mt-3 ">
@@ -69,17 +35,10 @@
         <div class="row">
             <div class="col-12">
                 <form class="login ml-auto mr-auto mt-3" align ="center">
-                    {{--<select class="browser-default custom-select">--}}
-                        {{--<option selected>نوع کاربر</option>--}}
-                        {{--<option value="1">دانشجو</option>--}}
-                        {{--<option value="2">صنایع</option>--}}
-                        {{--<option value="3">مدیریت</option>--}}
-                        {{--<option value="3">انجمن</option>--}}
-                    {{--</select>--}}
                     <input type="text" required class=" ml-auto mr-auto" placeholder="موضوع سوال">
                     <textarea type="text" required class=" ml-auto mr-auto" placeholder="متن سوال" style="min-height: 190px">
                     </textarea>
-                    <p>توجه : پاسخدهی به پرسش ها در اسریع وقت انجام خواهد پذیرفت و نتایج آن در پنل کاربری قابل مشاهده خواهد بود</p>
+                    <p>توجه : پاسخ دهی به پرسش ها در اسریع وقت انجام خواهد پذیرفت و نتایج آن در پنل کاربری قابل مشاهده خواهد بود</p>
                     <a href="{{url('/admin/admin')}}" class="text-white">
                         <button  class="custom-btn text-center m-0 "type="submit" >
                             <span>ارسال پرسش </span>
@@ -87,12 +46,9 @@
                     </a>
                 </form>
             </div>
-
         </div>
-
     </div>
 </div>
-
 @include('include.footer')
 
 <!-- ##### All Javascript Script ##### -->

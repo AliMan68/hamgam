@@ -83,6 +83,8 @@ Route::get('/signin',function (){
 
 
 //Admins
+//section1
+
 Route::get('/admin/admin',function (){
   return view('admin.admin');
 });
@@ -154,4 +156,43 @@ Route::get('/admin/visit-industries',function (){
 
 Route::get('/admin/visit-details',function (){
   return view('admin.visit-details');
+});
+
+Route::get('/admin/idea-support',function (){
+  return view('admin.idea-support');
+});
+
+Route::get('/admin/startup',function (){
+  return view('admin.startup');
+});
+
+Route::get('/admin/users/student',function (){
+  return view('admin.users.student');
+});
+
+Route::get('/admin/users/student-detailes',function (){
+  return view('admin.users.student-detailes');
+});
+
+Route::get('/admin/users/forums',function (){
+  return view('admin.users.forums');
+});
+
+Route::get('/admin/users/master',function (){
+  return view('admin.users.master');
+});
+
+Route::get('/admin/users/master-detailes',function (){
+  return view('admin.users.master-detailes');
+});
+
+
+//section 2
+
+Route::get('/student/student',function (){
+  return view('student.student');
+});
+
+Route::get('/student/workshop',function (){
+  return view('student.workshop');
 });

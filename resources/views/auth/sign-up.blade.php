@@ -34,10 +34,8 @@
             <div class="col-12">
                 <form class="login ml-auto mr-auto my-3" align ="center">
                     <select class="browser-default custom-select">
-                        <option selected>Open this select menu</option>
-                        <option value="1">One</option>
-                        <option value="2">Two</option>
-                        <option value="3">Three</option>
+                        <option selected>نوع کاربر</option>
+                        <option value="1">دانشجو</option>
                     </select>
                     <input type="text" required class=" ml-auto mr-auto" placeholder="نام">
                     <input type="text" required class=" ml-auto mr-auto" placeholder="نام خانوادگی">

@@ -3,7 +3,7 @@
 <!-- partial:index.partial.html -->
 
 <div class="navigation-wrap  start-header start-style " style=" ">
-    <div class="container-fluid ">
+    <div class="container ">
         <div class="row">
             <div class="col-12">
                 <header>
@@ -26,10 +26,10 @@
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
                                     <a class="nav-link dropdown-toggle" href="{{url('/success')}}">موفقیت</a>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="{{url('/success')}}"> فیلد شماره 1</a>
-                                        <a class="dropdown-item" href="#">فیلد شماره 2</a>
-                                        <a class="dropdown-item" href="#">فیلد شماره 3</a>
-                                        <a class="dropdown-item" href="#">فیلد شماره 4</a>
+                                        <a class="dropdown-item" href="#">الگوهای برتر اشتغال</a>
+                                        <a class="dropdown-item" href="#">فارغ التحصیلان شاغل</a>
+                                        <a class="dropdown-item" href="#">
+                                            گروه های استارت آپی دانشگاه</a>
                                     </div>
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
@@ -55,6 +55,12 @@
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
                                     <a class="nav-link" href="{{url('/academic-guidance')}}">هدایت شغلی</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="{{url('/relative-jobs')}}">شغل های مرتبط با رشته </a>
+                                        <a class="dropdown-item text-right" href="{{url('/academic-guidance/consult')}}" >مشاوره</a>
+                                        <a class="dropdown-item" href="{{url('/content')}}">هدف</a>
+                                        <a class="dropdown-item" href="{{url('/content')}}">تغییر رشته</a>
+                                    </div>
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                     <a class="nav-link" href="{{url('/')}}">خانه</a>
