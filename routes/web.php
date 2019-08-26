@@ -196,3 +196,59 @@ Route::get('/student/student',function (){
 Route::get('/student/workshop',function (){
   return view('student.workshop');
 });
+
+Route::get('/student/consult',function (){
+  return view('student.consult');
+});
+
+Route::get('/student/profile',function (){
+  return view('student.profile');
+});
+
+Route::get('/student/contact',function (){
+  return view('student.contact');
+});
+
+Route::get('/student/idea',function (){
+  return view('student.idea');
+});
+
+
+//section 3
+
+Route::get('/master/master',function (){
+  return view('master.master');
+});
+Route::get('/master/course-detalis',function (){
+  return view('master.course-detalis');
+});
+
+Route::get('/master/workshop',function (){
+  return view('master.workshop');
+});
+
+Route::get('/master/workshop-detalis',function (){
+  return view('master.workshop-detalis');
+});
+
+Route::get('/master/profile',function (){
+  return view('master.profile');
+});
+
+Route::get('/master/contact',function (){
+  return view('master.contact');
+});
+
+//section 4
+
+Route::get('/counselor/counselor',function (){
+  return view('counselor.counselor');
+});
+
+Route::get('/counselor/contact',function (){
+  return view('counselor.contact');
+});
+
+Route::get('/counselor/profile',function (){
+  return view('counselor.profile');
+});

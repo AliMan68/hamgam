@@ -24,7 +24,36 @@
     @include('admin.admin-navbar')
     <div class="container my-4 " id="side-list">
         <div class="row">
-            <div class="col-md-8 col-sm-12 ml-auto">
+            <div class="col-md-6 col-sm-12">
+                <table class="table table-striped text-center" style="direction: rtl;font-family: Vazir;font-size: 0.8rem">
+                    <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">عنوان ایده</th>
+                        <th scope="col">فرم تشریح ایده</th>
+                        <th scope="col">پاسخ</th>
+                        <th scope="col">وضعیت</th>
+                    </tr>
+                    </thead>
+                    <tbody class="text-white" style="font-size: 0.8rem">
+                    <tr>
+                        <th scope="row">1</th>
+                        <td >کاشت گیاهان دریای صادراتی</td>
+                        <td><button class="custom-btn text-center" style="max-width: 100px" >دانلود </button></td>
+                        <td><button class="custom-btn text-center" style="max-width: 100px" data-toggle="modal" data-target="#myModal">پاسخ </button></td>
+                        <td>بررسی شد. </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td >کاشت گیاهان دریای صادراتی</td>
+                        <td><button class="custom-btn text-center" style="max-width: 100px" >دانلود </button></td>
+                        <td><button class="custom-btn text-center" style="max-width: 100px" data-toggle="modal" data-target="#myModal">پاسخ </button></td>
+                        <td>بررسی نشد. </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6 col-sm-12">
                 <h5 class="text-white text-right mb-2" style="font-family: Vazir">ایده و حمایت</h5>
 
                 <form action="" class="px-3" style="direction: rtl">
@@ -33,13 +62,13 @@
                         <input type="text" id="title" required=""
                                class="form-control col-md-8 "  name="name" placeholder="اختیاری">
                     </div>
-                    <div class="form-group row py-4">
-                        <label class="col-md-2 col-form-label " style="" >تصویر  :</label>
-                        <div class="col-md-10 ">
+                    <div class="form-group row py-2">
+                        <label class="col-md-4 col-form-label " style="" >تصویر  :</label>
+                        <div class="col-md-8 ">
                             <div  id="fileInputsContainer">
                                 <div class="d-flex flex-row justify-content-between">
                                     <input type="file" id="images"
-                                           class="form-control-file" name="images[]">
+                                           class="form-control-file" name="">
                                 </div>
                             </div>
                         </div>
@@ -69,6 +98,40 @@
                         <button class="custom-btn text-center" type="submit" style="max-width: 120px">ذخیره</button>
                     </div>
                 </form>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal" style="font-family: Vazir">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title text-right ml-auto">ارسال پاسخ</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body text-right">
+                    <form action="" class="" style="direction: rtl;font-family: Vazir">
+                        <div class="form-group row ">
+                            <div class="col-md-12">
+                    <textarea type="text" id="editor1" required="" style="width: 100%;height: 190px;font-size: 0.8rem"
+                              class="form-control" name="description">
+                    </textarea>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="custom-btn btn-danger"  style="max-width: 60px">ارسال</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="custom-btn btn-danger" data-dismiss="modal" style="max-width: 60px">بستن</button>
+                </div>
+
+
             </div>
         </div>
     </div>

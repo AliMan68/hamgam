@@ -11,7 +11,7 @@
             <!-- Left Side Of Navbar -->
             <ul class="navbar-nav ml-auto mr-auto " style="direction: rtl !important;">
                 <li class="dropdown nav-item mx-2">
-                    <a id="adminNavSite" class="nav-link dropdown-toggle nav-hover" href="" id="navbarSite" role="button" aria-haspopup="true" aria-expanded="false" >
+                    <a id="adminNavSite" class="nav-link dropdown-toggle nav-hover" href="{{url('/admin/admin')}}" id="navbarSite" role="button" aria-haspopup="true" aria-expanded="false" >
                         <i class="fa fa-globe mt-1"></i>
                         مدیریت سایت
                     </a>
@@ -74,6 +74,19 @@
                         {{--<a class="dropdown-item" href="#">دوره های مهارتی</a>--}}
                         <a class="dropdown-item" href="{{url('/admin/idea-support')}}">ایده و حمایت</a>
                         <a class="dropdown-item" href="{{url('/admin/startup')}}">تشکیل گروه های استارت آپی</a>
+                    </div>
+                </li>
+                <li class="navbar-ticket nav-item  mx-2">
+                    <a id="adminNavTickets" class="nav-link navbar-ticket-a nav-hover" href="#" id="navbarTicket" role="button">
+                        <i class="fa fa-ticket mt-1"></i>
+                        موفقیت
+                        <span class="new-ticket"></span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarSite">
+                        {{--<a class="dropdown-item" href="#">دوره های مهارتی</a>--}}
+                        <a class="dropdown-item" href="{{url('/admin/idea-support')}}">الگوهای برتر اشتغال</a>
+                        <a class="dropdown-item" href="{{url('/admin/startup')}}">فارغ التحصیلان شاغل</a>
+                        <a class="dropdown-item" href="{{url('/admin/startup')}}">گروه های استارت آپی دانشگاه</a>
                     </div>
                 </li>
                 <li class="navbar-ticket nav-item  mx-2">

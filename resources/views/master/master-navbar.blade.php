@@ -17,41 +17,26 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarSite">
                         {{--<a class="dropdown-item" href="#">دوره های مهارتی</a>--}}
-                        <a class="dropdown-item" href="{{url('/student/student')}}">دوره های مهارتی</a>
-                        <a class="dropdown-item" href="{{url('/student/workshop')}}">کارگاه های آموزشی</a>
+                        <a class="dropdown-item" href="{{url('/master/master')}}">دوره های مهارتی</a>
+                        <a class="dropdown-item" href="{{url('/master/workshop')}}">کارگاه های آموزشی</a>
 
                     </div>
                 </li>
                 <li class="navbar-ticket nav-item  mx-2 mr-3">
-                    <a id="adminNavTickets" class="nav-link navbar-ticket-a nav-hover" href="{{url('/student/consult')}}" id="navbarTicket" role="button">
+                    <a id="adminNavTickets" class="nav-link navbar-ticket-a nav-hover" href="{{url('/master/profile')}}" id="navbarTicket" role="button">
                         <i class="fa fa-graduation-cap mt-1"></i>
-                        مشاوره
+                        تغییر رمز عبور
                         <span class="new-ticket"></span>
                     </a>
                 </li>
                 <li class="navbar-ticket nav-item  mx-2 mr-3">
-                    <a id="adminNavTickets" class="nav-link navbar-ticket-a nav-hover" href="{{url('/student/profile')}}" id="navbarTicket" role="button">
-                        <i class="fa fa-file mt-1"></i>
-                        پروفایل
-                        <span class="new-ticket"></span>
-                    </a>
-                </li>
-                <li class="navbar-ticket nav-item  mx-2 mr-3">
-                    <a id="adminNavTickets" class="nav-link navbar-ticket-a nav-hover" href="{{url('/student/contact')}}" id="navbarTicket" role="button">
+                    <a id="adminNavTickets" class="nav-link navbar-ticket-a nav-hover" href="{{url('/master/contact')}}" id="navbarTicket" role="button">
                         <i class="fa fa-male mt-1"></i>
                         ارتباط با مدیریت
                         <span class="new-ticket"></span>
                     </a>
                 </li>
-                <li class="navbar-ticket nav-item  mx-2 mr-3">
-                    <a id="adminNavTickets" class="nav-link navbar-ticket-a nav-hover" href="{{url('/student/idea')}}" id="navbarTicket" role="button">
-                        <i class="fa fa-graduation-cap mt-1"></i>
-                        ایده و حمایت
-                        <span class="new-ticket"></span>
-                    </a>
-                </li>
             </ul>
-
         </div>
     </div>
 </nav>

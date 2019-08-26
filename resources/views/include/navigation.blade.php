@@ -50,7 +50,7 @@
 
                                         <a class="dropdown-item" href="{{url('/skill-learning/courses')}}">دوره های مهارتی </a>
                                         <a class="dropdown-item text-right" href="{{url('/skill-learning/courses')}}" >ترم بندی دوره های مهارتی </a>
-                                        <a class="dropdown-item" href="#">پیشنهاد دوره</a>
+                                        <a class="dropdown-item" href="{{url('/skill-learning/offer')}}">پیشنهاد دوره</a>
                                     </div>
                                 </li>
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">

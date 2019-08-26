@@ -71,7 +71,7 @@
                 <div class="panel-group" id="accordion">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4 class="panel-title " data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                            <h4 class="panel-title text-white" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
                                 <a >سامانه همگام چگونه فعالیت می کند؟</a>
                             </h4>
                         </div>

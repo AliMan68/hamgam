@@ -65,21 +65,6 @@
                     </div>
                     </div> </div>
                     </div>
-                    {{--<div class="form-group row pt-4">--}}
-                    {{--<label class="col-md-3 col-form-label "--}}
-                    {{--style="" for="title">Name :</label>--}}
-                    {{--<div class="col-md-8 mr-auto">--}}
-                    {{--<select name="name" id="" class="form-control">--}}
-                    {{--<option value="1"></option>--}}
-                    {{--<option value="Departments & Courses">Departments & Courses</option>--}}
-                    {{--<option value="How to apply">How to apply</option>--}}
-
-                    {{--</select>--}}
-                    {{--</div>--}}
-                    {{--</div>--}}
-
-
-
                     <div class="d-flex justify-content-center mb-3">
                         <button class="custom-btn text-center" type="submit" style="max-width: 120px">ذخیره</button>
                     </div>

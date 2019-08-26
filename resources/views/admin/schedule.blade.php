@@ -27,10 +27,24 @@
     </div>
     @include('admin.admin-navbar')
     <div class="container my-4 " id="side-list">
+        <form action="" class="px-3" style="direction: rtl;font-family: Vazir">
+            <div class="form-group row py-4">
+                <label class="col-md-3 col-form-label ">توضیح مختصر  :</label>
+                <div class="col-md-5">
+                    <textarea type="text" id="editor1" required=""
+                              class="form-control" name="description" placeholder="توضیحات">
+                    </textarea>
+                </div>
+                <div class="col-md-3">
+                    <button class="custom-btn text-center" type="submit" style="max-width: 120px">ذخیره</button>
+                </div>
+            </div>
+        </form>
+        <div style="height: 2px;border-radius: 1px;margin: 10px 30px; background: #721c24; "></div>
+
         <div class="row">
             <div class="col-md-8 col-sm-12 ml-auto">
                 <h5 class="text-white text-right mb-2" style="font-family: Vazir">بارگذاری ترم بندی دوره های مهارتی</h5>
-
                 <form action="" class="px-3" style="direction: rtl;font-family: Vazir">
                     <div class="form-group row py-4">
                         <label class="col-md-3 col-form-label " style="" for="files">:  بارگذاری فایل </label>

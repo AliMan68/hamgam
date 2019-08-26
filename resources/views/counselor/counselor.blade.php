@@ -18,29 +18,14 @@
 <div class="container py-5 " style="margin-top: 150px; background-color: #4fa1bf;margin-bottom: 150px; border-radius: 10px">
     <div class="d-flex flex-row-reverse">
         <div class="text-white text-right ">
-            <h3 style="font-family: Vazir;"> پنل مدیریت </h3>
+            <h3 style="font-family: Vazir;"> پنل مشاور </h3>
         </div>
     </div>
-    @include('admin.admin-navbar')
-    <div class="container-fluid my-4 " id="side-list">
-        <form action="" class="px-3" style="direction: rtl;font-family: Vazir">
-            <div class="form-group row py-4">
-                <label class="col-md-3 col-form-label ">توضیح مختصر :</label>
-                <div class="col-md-5">
-                    <textarea type="text" id="editor1" required=""
-                              class="form-control" name="description" placeholder="توضیحات">
-                    </textarea>
-                </div>
-                <div class="col-md-3">
-                    <button class="custom-btn text-center" type="submit" style="max-width: 120px">ذخیره</button>
-                </div>
-            </div>
-        </form>
-        <div style="height: 2px;border-radius: 1px;margin: 10px 30px; background: #721c24; "></div>
-
+    @include('counselor.counselor-navbar')
+    <div class="container my-4 " id="side-list">
+        <h5 class="text-white text-right my-4" style="font-family: Vazir">پرسش ها</h5>
         <div class="row">
-            <div class="col-md-12 col-sm-12 ml-auto mr-auto">
-                <h6 class="text-white text-right mb-2" style="font-family: Vazir">مشاوره (توجه: برای پاسخ دهی فقط یکی از گزینه های ارسال به مشاور و یا پاسخ خود مدیریت انتخاب شود.)</h6>
+            <div class="col-md-12 col-sm-12">
                 <table class="table table-striped text-center" style="direction: rtl;font-family: Vazir">
                     <thead>
                     <tr>
@@ -51,7 +36,6 @@
                         <th scope="col">رشته تحصیلی</th>
                         <th scope="col">موضوع</th>
                         <th scope="col">مشاهده پرسش</th>
-                        <th scope="col">ارسال به مشاور</th>
                         <th scope="col">پاسخ دادن</th>
                         <th scope="col">وضعیت</th>
                     </tr>
@@ -65,22 +49,7 @@
                         <td>کارشناسی فناوری اطلاعات</td>
                         <td>هدایت تحصیلی</td>
                         <td><button class="custom-btn text-center" style="max-width: 100px" data-toggle="modal" data-target="#myModal">مشاهده </button></td>
-
-                        <td>
-                            <div class="d-flex  p-2 justify-content-between">
-                                <select class=" custom-select ml-2" style="font-size: 0.7rem;min-width: 120px">
-                                    <option selected>نام مشاور</option>
-                                    <option value="1">علی احمدی</option>
-                                    <option value="2">رضا یزدانی</option>
-                                    <option value="3">محمدرضا فروتن</option>
-                                    <option value="4">بهرام نورایی</option>
-                                </select>
-                                <button class="custom-btn text-center mt-0" style="max-width: 50px">ارسال</button>
-
-                            </div>
-                        </td>
                         <td><button class="custom-btn text-center" style="max-width: 100px" data-toggle="modal" data-target="#myModal1">پاسخ </button></td>
-
                         <td >پاسخ داده نشده</td>
                     </tr>
                     <tr>
@@ -91,22 +60,7 @@
                         <td>کارشناسی فناوری اطلاعات</td>
                         <td>مشاغل</td>
                         <td><button class="custom-btn text-center" style="max-width: 100px" data-toggle="modal" data-target="#myModal">مشاهده </button></td>
-
-                        <td>
-                            <div class="d-flex  p-2 justify-content-between">
-                                <select class=" custom-select ml-2" style="font-size: 0.7rem;min-width: 120px">
-                                    <option selected>نام مشاور</option>
-                                    <option value="1">علی احمدی</option>
-                                    <option value="2">رضا یزدانی</option>
-                                    <option value="3">محمدرضا فروتن</option>
-                                    <option value="4">بهرام نورایی</option>
-                                </select>
-                                <button class="custom-btn text-center mt-0" style="max-width: 50px">ارسال</button>
-
-                            </div>
-                        </td>
                         <td><button class="custom-btn text-center" style="max-width: 100px" data-toggle="modal" data-target="#myModal1">پاسخ </button></td>
-
                         <td >پاسخ داده نشده</td>
                     </tr>
                     <tr>
@@ -117,22 +71,7 @@
                         <td>کارشناسی فناوری اطلاعات</td>
                         <td>آینده شغلی</td>
                         <td><button class="custom-btn text-center" style="max-width: 100px" data-toggle="modal" data-target="#myModal">مشاهده </button></td>
-
-                        <td>
-                            <div class="d-flex  p-2 justify-content-between">
-                                <select class=" custom-select ml-2" style="font-size: 0.7rem;min-width: 120px">
-                                    <option selected>نام مشاور</option>
-                                    <option value="1">علی احمدی</option>
-                                    <option value="2">رضا یزدانی</option>
-                                    <option value="3">محمدرضا فروتن</option>
-                                    <option value="4">بهرام نورایی</option>
-                                </select>
-                                <button class="custom-btn text-center mt-0" style="max-width: 50px">ارسال</button>
-
-                            </div>
-                        </td>
                         <td><button class="custom-btn text-center" style="max-width: 100px" data-toggle="modal" data-target="#myModal1">پاسخ </button></td>
-
                         <td >پاسخ داده نشده</td>
                     </tr>
                     </tbody>
@@ -140,10 +79,29 @@
 
 
             </div>
+            <div class="pagination-section">
+                <div class="container my-3 ">
+                    <div class="row ">
+                        <div class="col-8 " align="center">
+                            <div class="pagination ">
+                                <a href="#">&laquo;</a>
+                                <a href="#">1</a>
+                                <a href="#" class="active">2</a>
+                                <a href="#">3</a>
+                                <a href="#">4</a>
+                                <a href="#">5</a>
+                                <a href="#">6</a>
+                                <a href="#">&raquo;</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
 </div>
-<!-- The Modal -->
+<!-- The Modals -->
 <div class="modal fade" id="myModal" style="font-family: Vazir">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -182,8 +140,8 @@
                 <form action="" class="" style="direction: rtl;font-family: Vazir">
                     <div class="form-group row ">
                         <div class="col-md-12">
-                    <textarea type="text" id="editor1" required="" style="width: 100%;height: 100%;font-size: 0.8rem"
-                              class="form-control" name="description" placeholder="پاسخ">
+                    <textarea type="text" id="editor1" required style="width: 100%;height: 190px;font-size: 0.8rem"
+                              class="form-control" placeholder="پاسخ">
                     </textarea>
                         </div>
                     </div>
@@ -201,7 +159,16 @@
         </div>
     </div>
 </div>
-</div>
 @include('include.footer')
 </body>
+<script>
+  function addDocumentInput() {
+    var referenceNode = document.getElementById('fileInputsContainer').lastChild;
+    var newNode = document.createElement("DIV");
+    newNode.className += 'mt-1'
+    newNode.innerHTML = '<input type="file"  required=""\n' +
+      '                       class="form-control-file" name="images[]">'
+    referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+  }
+</script>
 </html>

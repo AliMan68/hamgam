@@ -18,14 +18,14 @@
 <div class="container py-5 " style="margin-top: 150px; background-color: #4fa1bf;margin-bottom: 150px; border-radius: 10px">
     <div class="d-flex flex-row-reverse">
         <div class="text-white text-right ">
-            <h3 style="font-family: Vazir;"> پنل کاربر </h3>
+            <h3 style="font-family: Vazir;"> پنل استاد </h3>
         </div>
     </div>
-    @include('student.student-navbar')
+    @include('master.master-navbar')
     <div class="container my-4 " id="side-list">
         <div class="row">
             <div class="col-md-12 col-sm-12">
-                <h5 class="text-white text-right mb-2" style="font-family: Vazir">دوره های مهارتی</h5>
+                <h5 class="text-white text-right my-4" style="font-family: Vazir">کارگاه ها</h5>
                 <div style="height: 1px;background-color: #721c24; margin: 10px 5px"></div>
                 <div class="page-sections">
                     <div class="container">
@@ -37,40 +37,44 @@
                                         {{--<img class="img-fluid" src="http://res.cloudinary.com/d3/image/upload/c_pad,g_center,h_200,q_auto:eco,w_200/bootstrap-logo_u3c8dx.jpg" alt="Avatar" />--}}
                                     </div>
                                     <div class="card-body pt-2" style="overflow-y: hidden">
+                                        <h4 class="card-title"> Swift گارگاه آموزش</h4>
+                                        </p>
+                                        <p>مدرس : علی عربگری</p>
+                                        <p>زمان : شنبه ها ساعت 11</p>
+                                    </div>
+                                    <div class="card-footer" style="background: inherit; border-color: inherit;">
+                                        <div align="right">
+                                            <a href="{{url('/master/workshop-detalis')}}">
+                                                <button class="custom-btn text-center m-0 "type="submit" >
+                                                    <span>جزئیات</span>
+                                                </button>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-4 pb-1">
+                                <div class="card card-custom bg-white border-white border-0">
+                                    <div class="card-custom-img" style="background-image: url('/img/change.jpg')"></div>
+                                    <div class="card-custom-avatar">
+                                        {{--<img class="img-fluid" src="http://res.cloudinary.com/d3/image/upload/c_pad,g_center,h_200,q_auto:eco,w_200/bootstrap-logo_u3c8dx.jpg" alt="Avatar" />--}}
+                                    </div>
+                                    <div class="card-body pt-2" style="overflow-y: hidden">
                                         <h4 class="card-title"> Swift دوره آموزش</h4>
                                         </p>
                                         <p>مدرس : علی عربگری</p>
                                         <p>زمان : شنبه ها ساعت 11</p>
-                                        <p>.پیش نیاز : دارد</p>
                                     </div>
+                                    <div class="card-footer" style="background: inherit; border-color: inherit;">
+                                        <div align="right">
+                                            <a href="{{url('/master/workshop-detalis')}}">
+                                                <button class="custom-btn text-center m-0 "type="submit" >
+                                                    <span>جزئیات</span>
+                                                </button>
+                                            </a>
 
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-lg-4 pb-3">
-                                <div class="card card-custom bg-white border-white border-0">
-                                    <div class="card-custom-img" style="background-image: url('/img/suggest.jpg');"></div>
-                                    <div class="card-custom-avatar">
-                                        {{--<img class="img-fluid" src="http://res.cloudinary.com/d3/image/upload/c_pad,g_center,h_200,q_auto:eco,w_200/bootstrap-logo_u3c8dx.jpg" alt="Avatar" />--}}
-                                    </div>
-                                    <div class="card-body pt-2" style="overflow-y: hidden">
-                                        <h4 class="card-title">آموزش Solid Work 1</h4>
-                                        <p>مدرس : علی عربگری</p>
-                                        <p>زمان : شنبه ها ساعت 13</p>
-                                        <p>.پیش نیاز : ندارد</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-lg-4 pb-3">
-                                <div class="card card-custom bg-white border-white border-0">
-                                    <div class="card-custom-img" style="background-image: url('/img/suggest.jpg');"></div>
-                                    <div class="card-custom-avatar">
-                                        {{--<img class="img-fluid" src="http://res.cloudinary.com/d3/image/upload/c_pad,g_center,h_200,q_auto:eco,w_200/bootstrap-logo_u3c8dx.jpg" alt="Avatar" />--}}
-                                    </div>
-                                    <div class="card-body pt-2" style="overflow-y: hidden">
-                                        <h4 class="card-title">آموزش Solid Work 1</h4>
-                                        <p>مدرس : علی زمانی</p>
-                                        <p>زمان : شنبه ها ساعت 15</p>
-                                        <p>.پیش نیاز : دارد</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
