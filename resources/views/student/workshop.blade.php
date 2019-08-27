@@ -41,16 +41,6 @@
                                         <p>مدرس : علی عربگری</p>
                                         <p>زمان : شنبه ها ساعت 11</p>
                                     </div>
-                                    <div class="card-footer" style="background: inherit; border-color: inherit;">
-                                        <div align="right">
-                                            <a href="{{url('/skill-learning/courses')}}">
-                                                <button class="custom-btn text-center m-0 "type="submit" >
-                                                    <span>جزئیات</span>
-                                                </button>
-                                            </a>
-
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-4 col-lg-4 pb-3">
@@ -64,13 +54,6 @@
                                         <p>مدرس : علی عربگری</p>
                                         <p>زمان : شنبه ها ساعت 13</p>
                                     </div>
-                                    <div class="card-footer" style="background: inherit; border-color: inherit;">
-                                        <div align="right">
-                                            <button class="custom-btn text-center m-0 "type="submit" >
-                                                <span>جزئیات</span>
-                                            </button>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-4 col-lg-4 pb-3">
@@ -83,13 +66,6 @@
                                         <h4 class="card-title">آموزش Solid Work 1</h4>
                                         <p>مدرس : علی زمانی</p>
                                         <p>زمان : شنبه ها ساعت 15</p>
-                                    </div>
-                                    <div class="card-footer" style="background: inherit; border-color: inherit;">
-                                        <div align="right">
-                                            <button class="custom-btn text-center m-0 "type="submit" >
-                                                <span>جزئیات</span>
-                                            </button>
-                                        </div>
                                     </div>
                                 </div>
                             </div>

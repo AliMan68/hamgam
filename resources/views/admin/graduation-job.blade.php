@@ -44,64 +44,44 @@
             <div class="col-md-4 col-sm-12">
                 <div class="d-flex flex-column">
                     <div class="d-flex flex-column p-2" style="box-shadow: 0px 0px 15px rgba(10, 10, 10, 0.6);border-radius: 5px">
-                        <h5 class="text-white" style="font-family: Vazir;text-align: right">همه بازدید ها</h5>
+                        <h5 class="text-white" style="font-family: Vazir;text-align: right">همه فارغ التحصیلان</h5>
                         <ul style="direction: rtl" class="side-list2">
                             <li>
                                 <div class="d-flex flex-row align-items-center justify-content-between">
-                                    <p class="text-light text-right mb-2 pr-2">بازدید از گوگل</p>
+                                    <p class="text-light text-right mb-2 pr-2">علی عربگری</p>
                                     <a href="" class="custom-btn text-center">حذف</a>
-                                    <a href="{{asset('/admin/visit-details')}}" class="custom-btn text-center">جزئیات</a>
                                 </div>
                             </li>
                             <li>
                                 <div class="d-flex flex-row align-items-center justify-content-between">
-                                    <p class="text-light text-right mb-2 pr-2">بازدید از تپ30</p>
+                                    <p class="text-light text-right mb-2 pr-2">دیوید بکهام</p>
                                     <a href="" class="custom-btn text-center">حذف</a>
-                                    <a href="{{asset('/admin/visit-details')}}" class="custom-btn text-center">جزئیات</a>
                                 </div>
                             </li>
                             <li>
                                 <div class="d-flex flex-row align-items-center justify-content-between">
-                                    <p class="text-light text-right mb-2 pr-2">بازدید از شهرک سلیمی</p>
+                                    <p class="text-light text-right mb-2 pr-2">مک گریگور</p>
                                     <a href="" class="custom-btn text-center">حذف</a>
-                                    <a href="{{asset('/admin/visit-details')}}" class="custom-btn text-center">جزئیات</a>
                                 </div>
                             </li>
-                            <li>
-                                <div class="d-flex flex-row align-items-center justify-content-between">
-                                    <p class="text-light text-right mb-2 pr-2">بازدید از گوگل</p>
-                                    <a href="" class="custom-btn text-center">حذف</a>
-                                    <a href="{{asset('/admin/visit-details')}}" class="custom-btn text-center">جزئیات</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="d-flex flex-row align-items-center justify-content-between">
-                                    <p class="text-light text-right mb-2 pr-2">بازدید از تپ30</p>
-                                    <a href="" class="custom-btn text-center">حذف</a>
-                                    <a href="{{asset('/admin/visit-details')}}" class="custom-btn text-center">جزئیات</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="d-flex flex-row align-items-center justify-content-between">
-                                    <p class="text-light text-right mb-2 pr-2">بازدید از شهرک سلیمی</p>
-                                    <a href="" class="custom-btn text-center">حذف</a>
-                                    <a href="{{asset('/admin/visit-details')}}" class="custom-btn text-center">جزئیات</a>
-                                </div>
-                            </li>
-
                         </ul>
                     </div>
                 </div>
 
             </div>
             <div class="col-md-8 col-sm-12 ">
-                <h5 class="text-white text-right mb-2" style="font-family: Vazir">بازدید از صنایع</h5>
+                <h5 class="text-white text-right mb-2" style="font-family: Vazir">اضافه کردن فارغ التحصیل شاغل</h5>
 
                 <form action="" class="px-3" style="direction: rtl;font-family: Vazir">
                     <div class="form-group row py-4">
-                        <label class="col-md-3 col-form-label " style=""> عنوان بازدید :</label>
+                        <label class="col-md-3 col-form-label " style=""> نام و نام خانوادگی</label>
                         <input type="text" id="title" required=""
                                class="form-control col-md-9 "  name="name" placeholder="عنوان">
+                    </div>
+                    <div class="form-group row py-4">
+                        <label class="col-md-3 col-form-label " style="">رشته تحصیلی</label>
+                        <input type="text" id="title" required=""
+                               class="form-control col-md-9 "  name="name" placeholder="رشته">
                     </div>
                     <div class="form-group row py-4">
                         <label class="col-md-2 col-form-label " style="" >تصویر  :</label>
@@ -114,17 +94,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="form-group row py-4">
-                        <label class="col-md-3 col-form-label " style=""> زمان و مکان بازدید :</label>
-                        <input type="text" id="title" required=""
-                               class="form-control col-md-9 "  name="name" placeholder="زمان و مکان">
-                    </div>
 
                     <div class="form-group row py-4">
                         <label class="col-md-3 col-form-label ">توضیح مختصر :</label>
                         <div class="col-md-9 mr-auto">
-                    <textarea type="text" id="editor1" required=""
-                              class="form-control" name="description" placeholder="توضیحات">
+                    <textarea type="text" id="editor1"
+                              class="form-control" name="description" style="font-size: 0.8rem" placeholder="توضیحات در صورت وجود">
                     </textarea>
                         </div>
                     </div>

@@ -42,26 +42,26 @@
 <div class="page-sections">
     <div class="container">
         <div class="row pt-5 m-auto">
-            <div class="col-md-6 col-lg-4 pb-3">
-                <div class="card card-custom bg-white border-white border-0">
-                    <div class="card-custom-img" style="background-image: url('img/job-pattern.jpg')"></div>
-                    <div class="card-custom-avatar">
+            {{--<div class="col-md-6 col-lg-4 pb-3">--}}
+                {{--<div class="card card-custom bg-white border-white border-0">--}}
+                    {{--<div class="card-custom-img" style="background-image: url('img/job-pattern.jpg')"></div>--}}
+                    {{--<div class="card-custom-avatar">--}}
                         {{--<img class="img-fluid" src="http://res.cloudinary.com/d3/image/upload/c_pad,g_center,h_200,q_auto:eco,w_200/bootstrap-logo_u3c8dx.jpg" alt="Avatar" />--}}
-                    </div>
-                    <div class="card-body pt-2" style="overflow-y: auto">
-                        <h4 class="card-title">الگوهای برتر اشتغال</h4>
-                        <p class="card-text"> سامانه همگام به منظور برقراری ارتباط فعال و سازنده مابین دانشجویان، اساتید و صنایع در شهریور ماه 1398 راه اندازی شد.
-                        </p>
-                    </div>
-                    <div class="card-footer" style="background: inherit; border-color: inherit;">
-                        <div align="right">
-                            <button class="custom-btn text-center m-0 "type="submit" >
-                                <span>بیشتر</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                    {{--</div>--}}
+                    {{--<div class="card-body pt-2" style="overflow-y: auto">--}}
+                        {{--<h4 class="card-title">الگوهای برتر اشتغال</h4>--}}
+                        {{--<p class="card-text"> سامانه همگام به منظور برقراری ارتباط فعال و سازنده مابین دانشجویان، اساتید و صنایع در شهریور ماه 1398 راه اندازی شد.--}}
+                        {{--</p>--}}
+                    {{--</div>--}}
+                    {{--<div class="card-footer" style="background: inherit; border-color: inherit;">--}}
+                        {{--<div align="right">--}}
+                            {{--<button class="custom-btn text-center m-0 "type="submit" >--}}
+                                {{--<span>بیشتر</span>--}}
+                            {{--</button>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
             <div class="col-md-6 col-lg-4 pb-3">
                 <div class="card card-custom bg-white border-white border-0">
                     <div class="card-custom-img" style="background-image: url('/img/graduation.jpg');"></div>
@@ -74,15 +74,16 @@
                         </p>
                     </div>
                     <div class="card-footer" style="background: inherit; border-color: inherit;">
-                        <div align="right">
+
+                        <a href="{{url('/success/graduation-job')}}" align="right">
                             <button class="custom-btn text-center m-0 "type="submit" >
                                 <span>بیشتر</span>
                             </button>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4 pb-3 mr-auto ml-auto">
+            <div class="col-md-6 col-lg-4 pb-3 ">
                 <div class="card card-custom bg-white border-white border-0">
                     <div class="card-custom-img" style="background-image: url('img/startup.jpg')"></div>
                     <div class="card-custom-avatar">
@@ -94,11 +95,11 @@
                         </p>
                     </div>
                     <div class="card-footer" style="background: inherit; border-color: inherit;">
-                        <div align="right">
+                        <a href="{{url('/success/university-startups')}}" align="right">
                             <button class="custom-btn text-center m-0 "type="submit" >
                                 <span>بیشتر</span>
                             </button>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -71,6 +71,20 @@ Route::get('/gathering/workshop',function (){
 Route::get('/gathering/visit-industries',function (){
   return view('site.industry-visit');
 });
+
+Route::get('/success/graduation-job',function (){
+  return view('site.graduation-job');
+});
+
+Route::get('/success/university-startups',function (){
+  return view('site.university-startups');
+});
+
+
+
+
+
+
 //Auth
 
 Route::get('/signup',function (){
@@ -184,6 +198,18 @@ Route::get('/admin/users/master',function (){
 
 Route::get('/admin/users/master-detailes',function (){
   return view('admin.users.master-detailes');
+});
+
+Route::get('/admin/success/startups',function (){
+  return view('admin.uni-startups');
+});
+
+Route::get('/admin/users/consult',function (){
+  return view('admin.users.consult');
+});
+
+Route::get('/admin/success/graduation-jobs',function (){
+  return view('admin.graduation-job');
 });
 
 

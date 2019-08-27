@@ -26,9 +26,9 @@
                                 <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
                                     <a class="nav-link dropdown-toggle" href="{{url('/success')}}">موفقیت</a>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="#">الگوهای برتر اشتغال</a>
-                                        <a class="dropdown-item" href="#">فارغ التحصیلان شاغل</a>
-                                        <a class="dropdown-item" href="#">
+                                        {{--<a class="dropdown-item" href="#">الگوهای برتر اشتغال</a>--}}
+                                        <a class="dropdown-item" href="{{url('/success/graduation-job')}}">فارغ التحصیلان شاغل</a>
+                                        <a class="dropdown-item" href="{{url('/success/university-startups')}}">
                                             گروه های استارت آپی دانشگاه</a>
                                     </div>
                                 </li>

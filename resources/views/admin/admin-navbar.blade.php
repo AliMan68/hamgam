@@ -84,9 +84,9 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarSite">
                         {{--<a class="dropdown-item" href="#">دوره های مهارتی</a>--}}
-                        <a class="dropdown-item" href="{{url('/admin/idea-support')}}">الگوهای برتر اشتغال</a>
-                        <a class="dropdown-item" href="{{url('/admin/startup')}}">فارغ التحصیلان شاغل</a>
-                        <a class="dropdown-item" href="{{url('/admin/startup')}}">گروه های استارت آپی دانشگاه</a>
+                        {{--<a class="dropdown-item" href="{{url('/admin/idea-support')}}">الگوهای برتر اشتغال</a>--}}
+                        <a class="dropdown-item" href="{{url('/admin/success/graduation-jobs')}}">فارغ التحصیلان شاغل</a>
+                            <a class="dropdown-item" href="{{url('/admin/success/startups')}}">گروه های استارت آپی دانشگاه</a>
                     </div>
                 </li>
                 <li class="navbar-ticket nav-item  mx-2">
@@ -99,9 +99,9 @@
                         {{--<a class="dropdown-item" href="#">دوره های مهارتی</a>--}}
                         <a class="dropdown-item" href="{{url('/admin/users/student')}}">دانشجویان</a>
                         <a class="dropdown-item" href="{{url('/admin/users/master')}}">اساتید</a>
-                        <a class="dropdown-item" href="{{url('/admin/users/forums')}}">انجمن ها</a>
-                        <a class="dropdown-item" href="{{url('/admin/about-hamgam')}}">صنایع</a>
-                        <a class="dropdown-item" href="{{url('/admin/about-hamgam')}}">مشاور</a>
+                        <a class="dropdown-item" href="{{url('/admin/users/consult')}}">مشاور</a>
+                        <a class="dropdown-item" href="{{url('/admin/users/')}}">انجمن ها</a>
+                        <a class="dropdown-item" href="{{url('/admin/')}}">صنایع</a>
                     </div>
                 </li>
                 {{--<li  class="dropdown nav-item mx-2 btn-primary">--}}
