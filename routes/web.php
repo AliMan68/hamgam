@@ -93,6 +93,9 @@ Route::get('/signup',function (){
 Route::get('/signin',function (){
   return view('auth.sign-in');
 });
+Route::get('/auth/pass-recovery',function (){
+  return view('auth.pass-recovery');
+});
 
 
 
@@ -206,6 +209,10 @@ Route::get('/admin/success/startups',function (){
 
 Route::get('/admin/users/consult',function (){
   return view('admin.users.consult');
+});
+
+Route::get('/admin/users/forums',function (){
+  return view('admin.users.forums');
 });
 
 Route::get('/admin/success/graduation-jobs',function (){

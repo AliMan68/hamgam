@@ -24,7 +24,7 @@
         <div class="container-fluid">
             <div class="row mt-2">
                 <div class="col-5 mr-auto ml-auto bottom-line">
-                    <h2 class="text-center  p-2 mt-5 text-dark" style="font-family: Vazir; font-size: 3rem ; text-align: center">مشاوره با متخصصان دانشگاه</h2>
+                    <h2 class="text-center  p-2 mt-5 text-dark" style="font-family: Vazir; font-size: 3rem ; text-align: center">بازیابی رمز عبور</h2>
                 </div>
             </div>
         </div>
@@ -35,12 +35,11 @@
         <div class="row">
             <div class="col-12">
                 <form class="login ml-auto mr-auto mt-3" align ="center">
-                    <input type="text" required class=" ml-auto mr-auto" placeholder="موضوع سوال">
-                    <textarea type="text" required class=" ml-auto mr-auto" placeholder="متن سوال" style="min-height: 190px"></textarea>
-                    <p>توجه : پاسخ دهی به پرسش ها در اسریع وقت انجام خواهد پذیرفت و نتایج آن در پنل کاربری قابل مشاهده خواهد بود</p>
+                    <input type="email" required class=" ml-auto mr-auto" placeholder="ایمیل">
+                   <p>توجه : ایمیلی حاوی لینک بازیابی رمز عبور برای شما ارسال خواهد شد</p>
                     <a href="{{url('/admin/admin')}}" class="text-white">
                         <button  class="custom-btn text-center m-0 "type="submit" >
-                            <span>ارسال پرسش </span>
+                            <span>ارسال ایمیل بازیابی</span>
                         </button>
                     </a>
                 </form>

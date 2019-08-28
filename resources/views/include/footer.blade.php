@@ -38,9 +38,7 @@
                             <input required type="text" class="form-control text-right"  id="name" aria-describedby="name" placeholder="نام ">
                         </div>
                         <div class="form-group">
-                            <textarea required class="form-control" id="questions" placeholder="سوال و درخواست ها">
-
-                            </textarea>
+                            <textarea required class="form-control" id="questions" placeholder="سوال و درخواست ها"></textarea>
                         </div>
                         <div class="button_cont" align="left">
                             <button class="custom-btn text-center"type="submit" >
