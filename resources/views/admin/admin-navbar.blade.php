@@ -27,7 +27,7 @@
                     </div>
                 </li>
                 <li class="dropdown nav-item mt-1 mx-2">
-                    <a id="adminNavProfessors" class="nav-link nav-hover" href="#" role="button"   aria-expanded="false">
+                    <a id="adminNavProfessors" class="nav-link nav-hover" href="{{url('/admin/guidance')}}" role="button"   aria-expanded="false">
                         <i class="fa fa-chalkboard-teacher mt-1"></i>
                         بخش هدایت شغلی
                     </a>
@@ -40,7 +40,7 @@
                     </div>
                 </li>
                 <li  class="dropdown nav-item mt-1 mx-2">
-                    <a id="adminNavUsers" class="nav-link nav-hover" href="#" role="button" >
+                    <a id="adminNavUsers" class="nav-link nav-hover" href="{{url('/admin/skill-learning')}}" role="button" >
                         <i class="fa fa-users-class mt-1"></i>
                         بخش مهارت آموزی
                     </a>
@@ -52,7 +52,7 @@
                     </div>
                 </li>
                 <li class="navbar-ticket nav-item  mx-2">
-                    <a id="adminNavTickets" class="nav-link navbar-ticket-a nav-hover" href="#" id="navbarTicket" role="button">
+                    <a id="adminNavTickets" class="nav-link navbar-ticket-a nav-hover" href="{{url('/admin/gathering')}}" id="navbarTicket" role="button">
                         <i class="fa fa-ticket mt-1"></i>
                         بخش گردهمایی
                         <span class="new-ticket"></span>
@@ -65,7 +65,7 @@
                     </div>
                 </li>
                 <li class="navbar-ticket nav-item  mx-2">
-                    <a id="adminNavTickets" class="nav-link navbar-ticket-a nav-hover" href="#" id="navbarTicket" role="button">
+                    <a id="adminNavTickets" class="nav-link navbar-ticket-a nav-hover" href="{{url('/admin/idea')}}" id="navbarTicket" role="button">
                         <i class="fa fa-ticket mt-1"></i>
                         بخش ایده ها
                         <span class="new-ticket"></span>
@@ -77,7 +77,7 @@
                     </div>
                 </li>
                 <li class="navbar-ticket nav-item  mx-2">
-                    <a id="adminNavTickets" class="nav-link navbar-ticket-a nav-hover" href="#" id="navbarTicket" role="button">
+                    <a id="adminNavTickets" class="nav-link navbar-ticket-a nav-hover" href="{{url('/admin/success')}}" id="navbarTicket" role="button">
                         <i class="fa fa-ticket mt-1"></i>
                         موفقیت
                         <span class="new-ticket"></span>

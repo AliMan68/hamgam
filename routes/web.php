@@ -80,6 +80,10 @@ Route::get('/success/university-startups',function (){
   return view('site.university-startups');
 });
 
+Route::get('/skill-learning/courses/detailes',function (){
+  return view('site.skill-course-detailes');
+});
+
 
 
 
@@ -217,6 +221,26 @@ Route::get('/admin/users/forums',function (){
 
 Route::get('/admin/success/graduation-jobs',function (){
   return view('admin.graduation-job');
+});
+
+Route::get('/admin/guidance',function (){
+  return view('admin.guidance');
+});
+
+Route::get('/admin/skill-learning',function (){
+  return view('admin.skill-learning');
+});
+
+Route::get('/admin/idea',function (){
+  return view('admin.idea');
+});
+
+Route::get('/admin/success',function (){
+  return view('admin.success');
+});
+
+Route::get('/admin/gathering',function (){
+  return view('admin.gathering');
 });
 
 
