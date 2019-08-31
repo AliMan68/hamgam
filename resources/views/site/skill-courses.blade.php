@@ -242,6 +242,7 @@
                         <p>مدرس : علی عربگری</p>
                         <p>زمان : شنبه ها ساعت 11</p>
                         <p>.پیش نیاز : دارد</p>
+                        <p>جنسیت: مشترک</p>
                     </div>
                     <div class="card-footer" style="background: inherit; border-color: inherit;">
                         <div align="right">

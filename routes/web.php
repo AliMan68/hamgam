@@ -219,6 +219,10 @@ Route::get('/admin/users/forums',function (){
   return view('admin.users.forums');
 });
 
+Route::get('/admin/users/industry',function (){
+  return view('admin.users.industry');
+});
+
 Route::get('/admin/success/graduation-jobs',function (){
   return view('admin.graduation-job');
 });
@@ -241,6 +245,10 @@ Route::get('/admin/success',function (){
 
 Route::get('/admin/gathering',function (){
   return view('admin.gathering');
+});
+
+Route::get('/admin/printCertificate',function (){
+  return view('admin.user.certificate-print');
 });
 
 

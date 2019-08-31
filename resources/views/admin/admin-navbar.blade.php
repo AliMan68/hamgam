@@ -101,7 +101,7 @@
                         <a class="dropdown-item" href="{{url('/admin/users/master')}}">اساتید</a>
                         <a class="dropdown-item" href="{{url('/admin/users/consult')}}">مشاور</a>
                         <a class="dropdown-item" href="{{url('/admin/users/forums')}}">انجمن ها</a>
-                        <a class="dropdown-item" href="{{url('/admin/')}}">صنایع</a>
+                        <a class="dropdown-item" href="{{url('/admin/users/industry')}}">صنایع</a>
                     </div>
                 </li>
                 {{--<li  class="dropdown nav-item mx-2 btn-primary">--}}

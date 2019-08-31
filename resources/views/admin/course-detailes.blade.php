@@ -28,7 +28,8 @@
         <div class="row">
             <div class="col-md-6 col-sm-12 ">
                 <h5 class="text-white text-right mb-2" style="font-family: Vazir">دانشجویان ثبت نامی</h5>
-                <table class="table table-striped text-center usr-table" style="direction: rtl;font-family: Vazir">
+                <table class="table table-striped text-center " id="testTable" summary="Summary"
+                       rules="groups" frame="hsides" border="2"   style="direction: rtl;font-family: Vazir">
                     <thead>
                     <tr>
                         <th scope="col">#</th>
@@ -38,38 +39,53 @@
                             ارسال گواهی
 
                         </th>
+                        <th scope="col">
+                            گواهی پایان دوره
+                        </th>
                     </tr>
                     </thead>
                     <tbody class="text-white">
                     <tr>
                         <th scope="row">1</th>
-                        <td>علی عربگری</td>
-                        <td><button class="custom-btn text-center" style="max-width: 110px" data-toggle="modal" data-target="#myModal">مشاهده </button></td>
+                        <td>Ali Arabgary</td>
+                        <td>
+                            <a href="{{asset('/admin/users/student-detailes')}}" class="custom-btn text-center mt-5" style="max-width: 80px;text-decoration: none">مشاهده</a>
+                        </td>
                         <td class="table-check">
                             <input class="form-control tableCheckBox" form="certForm" type="checkbox" name="cert[]" value="1"  checked="true"/>
                         </td>
+                        <td><a href="{{url('/admin/printCertificate')}}"><button class="custom-btn text-center" style="max-width: 110px" >پرینت</button></a></td>
                     </tr>
                     <tr>
                         <th scope="row">1</th>
                         <td>علی عربگری</td>
-                        <td><button class="custom-btn text-center" style="max-width: 110px" data-toggle="modal" data-target="#myModal">مشاهده </button></td>
+                        <td>
+                            <a href="{{asset('/admin/users/student-detailes')}}" class="custom-btn text-center " style="max-width: 80px;text-decoration: none">مشاهده</a>
                         <td>
                             <input type="checkbox" value="">
                         </td>
+                        <td><a href="{{url('/admin/printCertificate')}}"><button class="custom-btn text-center" style="max-width: 110px" >پرینت</button></a></td>
+
                     </tr>
                     <tr>
                         <th scope="row">1</th>
                         <td>علی عربگری</td>
-                        <td><button class="custom-btn text-center" style="max-width: 110px" data-toggle="modal" data-target="#myModal">مشاهده </button></td>
+                        <td>
+                            <a href="{{asset('/admin/users/student-detailes')}}" class="custom-btn text-center" style="max-width: 80px;text-decoration: none">مشاهده</a>
+                        </td>
                         <td>
                             <input type="checkbox" value="">
                         </td>
+                        <td><a href="{{url('/admin/printCertificate')}}"><button class="custom-btn text-center" style="max-width: 110px" >پرینت</button></a></td>
                     </tr>
                     </tbody>
                 </table>
-                <div class="row">
+                <div class="row ml-5">
                     <div class="col-md-4">
                         <button class="custom-btn text-center" style="max-width: 110px" onclick="" >ارسال گواهی </button></td>
+                    </div>
+                    <div class="col-md-4">
+                        <button class="custom-btn text-center" style="max-width: 110px" id="btnExport" onclick="tableToExcel('testTable', 'Export HTML Table to Excel')">خروجی اکسل</button></td>
                     </div>
                 </div>
             </div>
@@ -112,6 +128,48 @@
                     </div>
 
                     <div class="form-group row py-4">
+                        <label class="col-md-3 col-form-label " style=""> رشته های مرتبط:</label>
+                        <div class="bg-light d-flex flex-wrap align-items-start p-2" style="border-radius: 5px;min-height: 200px;width: 85%">
+                            <div class=" p-1 mr-2" style="border-radius: 1px">
+                                <span class="custom-control">
+                                         <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                                         <label class="custom-control-label text-dark" for="defaultUnchecked">مهندسی مکانیک</label>
+                                </span>
+                            </div>
+                            <div class="mr-2 p-1">
+                                <span class="custom-control">
+                                         <input type="checkbox" class="custom-control-input" id="defaultUnchecked1">
+                                         <label class="custom-control-label text-dark"  for="defaultUnchecked1">مهندسی مکانیک</label>
+                                </span>
+                            </div>
+                            <div class="mr-2 p-1">
+                                <span class="custom-control">
+                                         <input type="checkbox" class="custom-control-input" id="defaultUnchecked2">
+                                         <label class="custom-control-label text-dark" for="defaultUnchecked2">مهندسی مکانیک</label>
+                                </span>
+                            </div>
+                            <div class="mr-2 p-1">
+                                <span class="custom-control">
+                                         <input type="checkbox" class="custom-control-input" id="defaultUnchecked3">
+                                         <label class="custom-control-label text-dark" for="defaultUnchecked3">مهندسی مکانیک</label>
+                                </span>
+                            </div>
+                            <div class="mr-2 p-1">
+                                <span class="custom-control">
+                                         <input type="checkbox" class="custom-control-input" id="defaultUnchecked4">
+                                         <label class="custom-control-label text-dark"  for="defaultUnchecked4">مهندسی مکانیک</label>
+                                </span>
+                            </div>
+                            <div class="mr-2 p-1">
+                                <span class="custom-control">
+                                         <input type="checkbox" class="custom-control-input" id="defaultUnchecked5">
+                                         <label class="custom-control-label text-dark" for="defaultUnchecked5">مهندسی مکانیک</label>
+                                </span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="form-group row py-4">
                         <label class="col-md-3 col-form-label ">توضیح مختصر :</label>
                         <div class="col-md-9 mr-auto">
                     <textarea type="text" id="editor1" required=""
@@ -128,6 +186,41 @@
     </div>
 </div>
 @include('include.footer')
+
+<script type="text/javascript">
+  var tableToExcel = (function () {
+    var uri = 'data:application/vnd.ms-excel;base64,'
+      , template = '<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table>{table}</table></body></html>'
+      , base64 = function (s) { return window.btoa(unescape(encodeURIComponent(s))) }
+      , format = function (s, c) { return s.replace(/{(\w+)}/g, function (m, p) { return c[p]; }) }
+    return function (table, name) {
+      if (!table.nodeType) table = document.getElementById(table)
+      var ctx = { worksheet: name || 'Worksheet', table: table.innerHTML }
+      var blob = new Blob([format(template, ctx)]);
+      var blobURL = window.URL.createObjectURL(blob);
+
+      if (ifIE()) {
+        csvData = table.innerHTML;
+        if (window.navigator.msSaveBlob) {
+          var blob = new Blob([format(template, ctx)], {
+            type: "text/html"
+          });
+          navigator.msSaveBlob(blob, '' + name + '.xls');
+        }
+      }
+      else
+        window.location.href = uri + base64(format(template, ctx))
+    }
+  })()
+
+  function ifIE() {
+    var isIE11 = navigator.userAgent.indexOf(".NET CLR") > -1;
+    var isIE11orLess = isIE11 || navigator.appVersion.indexOf("MSIE") != -1;
+    return isIE11orLess;
+  }
+</script>
+
+
 <script type="text/javascript">
   $(document).ready(function() {
     $(".example1").pDatepicker();

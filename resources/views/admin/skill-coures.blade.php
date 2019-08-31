@@ -101,8 +101,7 @@
                     <label class="col-md-3 col-form-label ">توضیح مختصر دور های مهارتی :</label>
                     <div class="col-md-5">
                     <textarea type="text" id="editor1" required=""
-                              class="form-control" name="description" placeholder="توضیحات">
-                    </textarea>
+                              class="form-control" name="description" placeholder="توضیحات"></textarea>
                     </div>
                         <div class="col-md-3">
                             <button class="custom-btn text-center" type="submit" style="max-width: 120px">ذخیره</button>
@@ -121,30 +120,45 @@
                     </div>
                     <div class="form-group row py-4">
                         <label class="col-md-3 col-form-label " style=""> رشته های مرتبط:</label>
-                        <select class="browser-default custom-select col-md-3">
-                            <option selected>نام رشته</option>
-                            <option value="1">مهندسی نرم افزار</option>
-                            <option value="2">مهندسی برق</option>
-                            <option value="3">مدیریت دولتی</option>
-                            <option value="3">مطالعات خانواده</option>
-                            <option value="3">زبان</option>
-                        </select>
-                        <select class="browser-default custom-select col-md-3">
-                            <option selected>نام رشته</option>
-                            <option value="1">مهندسی نرم افزار</option>
-                            <option value="2">مهندسی برق</option>
-                            <option value="3">مدیریت دولتی</option>
-                            <option value="3">مطالعات خانواده</option>
-                            <option value="3">زبان</option>
-                        </select>
-                        <select class="browser-default custom-select col-md-3">
-                            <option selected>نام رشته</option>
-                            <option value="1">مهندسی نرم افزار</option>
-                            <option value="2">مهندسی برق</option>
-                            <option value="3">مدیریت دولتی</option>
-                            <option value="3">مطالعات خانواده</option>
-                            <option value="3">زبان</option>
-                        </select>
+                        <div class="bg-light d-flex flex-wrap align-items-start p-2" style="border-radius: 5px;min-height: 200px;width: 85%">
+                            <div class=" p-1 mr-2" style="border-radius: 1px">
+                                <span class="custom-control">
+                                         <input type="checkbox" class="custom-control-input" id="defaultUnchecked">
+                                         <label class="custom-control-label text-dark" for="defaultUnchecked">مهندسی مکانیک</label>
+                                </span>
+                            </div>
+                            <div class="mr-2 p-1">
+                                <span class="custom-control">
+                                         <input type="checkbox" class="custom-control-input" id="defaultUnchecked1">
+                                         <label class="custom-control-label text-dark"  for="defaultUnchecked1">مهندسی مکانیک</label>
+                                </span>
+                            </div>
+                            <div class="mr-2 p-1">
+                                <span class="custom-control">
+                                         <input type="checkbox" class="custom-control-input" id="defaultUnchecked2">
+                                         <label class="custom-control-label text-dark" for="defaultUnchecked2">مهندسی مکانیک</label>
+                                </span>
+                            </div>
+                            <div class="mr-2 p-1">
+                                <span class="custom-control">
+                                         <input type="checkbox" class="custom-control-input" id="defaultUnchecked3">
+                                         <label class="custom-control-label text-dark" for="defaultUnchecked3">مهندسی مکانیک</label>
+                                </span>
+                            </div>
+                            <div class="mr-2 p-1">
+                                <span class="custom-control">
+                                         <input type="checkbox" class="custom-control-input" id="defaultUnchecked4">
+                                         <label class="custom-control-label text-dark"  for="defaultUnchecked4">مهندسی مکانیک</label>
+                                </span>
+                            </div>
+                            <div class="mr-2 p-1">
+                                <span class="custom-control">
+                                         <input type="checkbox" class="custom-control-input" id="defaultUnchecked5">
+                                         <label class="custom-control-label text-dark" for="defaultUnchecked5">مهندسی مکانیک</label>
+                                </span>
+                            </div>
+
+                        </div>
                     </div>
                     <div class="form-group row py-4">
                         <label class="col-md-2 col-form-label " style="" >تصویر  :</label>
@@ -176,12 +190,19 @@
                             <option value="1">تابستان</option>
                         </select>
                     </div>
+                    <div class="form-group row py-4">
+                        <label class="col-md-2 col-form-label " style=""> جنسیت:</label>
+                        <select class="browser-default custom-select col-md-8">
+                            <option selected>مشترک</option>
+                            <option value="1">مرد</option>
+                            <option value="1">زن</option>
+                        </select>
+                    </div>
 
                     <div class="form-group row">
                         <legend class="col-form-label col-sm-2 pt-0">زمان برگزاری </legend>
                         <div class="col-sm-10">
                             <input  type="text" name="" class="form-control start-day example1" required>
-                            {{--                                <input value="{{date('Y-m-d')}}" type="text" name="start_date" >--}}
                         </div>
 
 
@@ -191,8 +212,7 @@
                         <label class="col-md-3 col-form-label ">توضیح مختصر :</label>
                         <div class="col-md-9 mr-auto">
                     <textarea type="text" id="editor1" required=""
-                              class="form-control" name="description" placeholder="توضیحات">
-                    </textarea>
+                              class="form-control" name="description" placeholder="توضیحات"></textarea>
                         </div>
                     </div>
                     <div class="form-group row py-4">

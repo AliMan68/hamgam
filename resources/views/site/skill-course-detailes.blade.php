@@ -75,6 +75,9 @@
                 <p class="my-2 text-right p-1 ">
                     پیش نیاز : ریاضی 1 و فیزیک 3
                 </p>
+                <p class="my-2 text-right p-1 ">
+                     جنسیت : مشترک
+                </p>
                 <div class="d-flex flex-row-reverse flex-wrap">
                     <a href="">
                         <button class="custom-btn text-center m-4 "type="submit" style="max-width: 130px">
